@@ -146,7 +146,6 @@ plugins:
   - jekyll-archives
   - jekyll-email-protect
   - jekyll-feed
-  - jekyll-github-metadata
   - jekyll-paginate-v2
   - jekyll-responsive-image
   - jekyll/scholar
@@ -163,7 +162,6 @@ defaults:
       sitemap:         false
 
 # Extras
-github: [metadata]
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives
