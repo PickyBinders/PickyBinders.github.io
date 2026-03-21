@@ -1,0 +1,48 @@
+/*******************************************************************************
+ * Variables used throughout the theme.
+ * To adjust anything, simply edit the variables below and rebuild the theme.
+ ******************************************************************************/
+
+
+// Colors — cool industrial palette
+$red-color:           #6B3A3A !default;
+$red-color-dark:      #4A2828 !default;
+$orange-color:        #8A8A8A !default;
+$blue-color:          #4A5568 !default;
+$blue-color-dark:     #2D3748 !default;
+$cyan-color:          #5A6A72 !default;
+$light-cyan-color:    lighten($cyan-color, 25%);
+$green-color:         #4A5D52 !default;
+$green-color-lime:    #8B9D77 !default;
+$green-color-dark:    #2F3B33 !default;
+$green-color-light:   #A8B5A0 !default;
+$green-color-bright:  #6B8F71 !default;
+$purple-color:        #4A4A4A !default;
+$light-purple-color:  lighten($purple-color, 15%);
+$pink-color:          #6B3A3A !default;
+$pink-color-light:    #D4D0CC !default;
+$yellow-color:        #9A9A8A !default;
+
+$grey-color:          #6B6B6B !default;
+$grey-color-light:    lighten($grey-color, 30%);
+$grey-color-dark:     darken($grey-color, 35%);
+
+$white-color: #ffffff !default;
+$black-color: #000000 !default;
+
+// Cool industrial tones
+$charcoal:            #1E1E1E;
+$smoke:               #2A2A2A;
+$fog:                 #F0F0EC;
+$ash:                 #E4E4E0;
+$steel:               #6E7B8B;
+$slate:               #475569;
+$iron:                #3B3B3B;
+$silver:              #94A3B8;
+$ink:                 #1E1E24;
+
+
+// Theme colors
+
+$code-bg-color-light:     rgba($steel, 0.08);
+$code-bg-color-dark:      #1C1F2D !default;

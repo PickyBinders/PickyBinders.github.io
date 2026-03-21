@@ -1,0 +1,29 @@
+<div class="project-accordion-card">
+  <div class="card">
+    <div class="card-header" data-toggle="collapse" data-target="#project-{{ project.title | slugify }}" aria-expanded="false">
+      <h3>
+        {{ project.title }}
+        <i class="fas fa-chevron-down accordion-arrow"></i>
+      </h3>
+    </div>
+    <div id="project-{{ project.title | slugify }}" class="collapse">
+      <div class="card-body">
+        {% if project.description and project.description != "" %}
+          <p class="project-description">{{ project.description }}</p>
+        {% endif %}
+        {% if project.github %}
+          <a class="project-link" href="{{ project.github }}" target="_blank"><i class="fab fa-github"></i> Code</a>
+        {% endif %}
+        {% if project.publications %}
+          {% for pub in project.publications %}
+          <div class="pub-entry">
+            <a href="{{ pub.url }}" target="_blank">{{ pub.title }}</a>
+            <div class="pub-meta">{{ pub.authors }}</div>
+            <div class="pub-meta">{{ pub.venue }}, {{ pub.year }}</div>
+          </div>
+          {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>

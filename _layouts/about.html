@@ -1,0 +1,91 @@
+---
+layout: default
+---
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">
+     {% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{% else %}{{ site.title }}{% endif %}
+    </h1>
+     <p class="desc">{{ page.description }}</p>
+  </header>
+
+  <article>
+    {% if page.profile %}
+    <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+      {% if page.profile.image %}
+        {% responsive_image_block %}
+          path: {{ page.profile.image | prepend: 'assets/img/' }}
+          class: "img-fluid z-depth-1 rounded"
+          alt: {{ page.profile.image }}
+        {% endresponsive_image_block %}
+      {% endif %}
+      {% if page.profile.address %}
+        <div class="address">
+          {{ page.profile.address }}
+        </div>
+      {% endif %}
+    </div>
+    {% endif %}
+
+    <div class="clearfix justify">
+      {{ content }}
+    </div>
+
+    <!-- Projects -->
+    {% assign sorted_projects = site.projects | sort: "importance" %}
+    {% if sorted_projects.size > 0 %}
+      <h2>projects</h2>
+      <div class="projects">
+        <div class="row">
+        {% for project in sorted_projects %}
+          <div class="col-md-6">
+            {% include projects_horizontal.html %}
+          </div>
+        {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+
+    <!-- Resources -->
+    {% if site.teaching.size > 0 %}
+      <h2>resources</h2>
+      <div class="projects">
+        <div class="row">
+        {% assign courses = site.teaching | reverse %}
+        {% for item in courses %}
+          <div class="col-md-6">
+            <div class="resource-card-item">
+              {% if item.html %}
+              <a href="{{ item.html }}" target="_blank">
+              {% elsif item.slides %}
+              <a href="{{ item.slides | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">
+              {% else %}
+              <a href="{{ item.url | relative_url }}">
+              {% endif %}
+                <div class="card hoverable">
+                  <div class="card-body">
+                    <div class="resource-title">{{ item.title | remove: '<p>' | remove: '</p>' }}</div>
+                    <div class="resource-meta">{% for author in item.authors %}{{ author.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+
+    {% if page.social %}
+    <div class="social">
+      <div class="contact-icons">
+        {% include social.html %}
+      </div>
+      <div class="contact-note">{{ site.contact_note }}</div>
+    </div>
+    {% endif %}
+  </article>
+
+</div>
