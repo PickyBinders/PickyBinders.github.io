@@ -26,6 +26,9 @@
     display : block;
   }
 
+  .logo-light { display: inline; }
+  .logo-dark { display: none; }
+
   // Fonts
   --global-font-family: "Inter";
   --global-code-font-family: "Cantarell";
@@ -54,4 +57,7 @@ html[data-theme='dark'] {
   .fa-moon {
     display : none;
   }
+
+  .logo-light { display: none; }
+  .logo-dark { display: inline; }
 }

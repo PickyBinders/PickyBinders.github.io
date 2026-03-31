@@ -4,16 +4,31 @@ layout: default
 
 <div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">
-     {% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{% else %}{{ site.title }}{% endif %}
-    </h1>
-     <p class="desc">{{ page.description }}</p>
-  </header>
+  {% if site.enable_darkmode %}
+  <div class="dark-toggle">
+    <a id="light-toggle" title="Toggle dark mode"><i class="fas fa-moon"></i><i class="fas fa-sun"></i></a>
+  </div>
+  {% endif %}
+  <div class="contact-card">
+    <h2>contact</h2>
+    <div class="contact-name">Jay (Janani Durairaj)</div>
+    <!-- <div class="contact-role">Group Leader</div> -->
+    <div class="contact-links">
+      <a href="mailto:janani.durairaj@unibas.ch" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://bsky.app/profile/ninjani.bsky.social" target="_blank" title="Bluesky"><i class="fas fa-cloud"></i></a>
+      <a href="https://scholar.google.com/citations?user=PQ-my-kAAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+      <a href="https://github.com/Ninjani" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://www.biozentrum.unibas.ch/research/research-groups/project-leaders-a-z/overview/unit/research-group-durairaj-j" target="_blank" title="Group page"><i class="fas fa-briefcase"></i></a>
+    </div>
+  </div>
 
-  <article>
+  <header class="post-header">
+    <div class="site-logo">
+      <img class="logo-light" src="{{ '/assets/img/pb_logo_black.png' | relative_url }}" alt="Picky Binders">
+      <img class="logo-dark" src="{{ '/assets/img/pb_logo_white.png' | relative_url }}" alt="Picky Binders">
+    </div>
     {% if page.profile %}
-    <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+    <div class="group-photo">
       {% if page.profile.image %}
         {% responsive_image_block %}
           path: {{ page.profile.image | prepend: 'assets/img/' }}
@@ -21,15 +36,13 @@ layout: default
           alt: {{ page.profile.image }}
         {% endresponsive_image_block %}
       {% endif %}
-      {% if page.profile.address %}
-        <div class="address">
-          {{ page.profile.address }}
-        </div>
-      {% endif %}
     </div>
     {% endif %}
+    <p class="desc">{{ page.description }}</p>
+  </header>
 
-    <div class="clearfix justify">
+  <article>
+    <div class="justify">
       {{ content }}
     </div>
 
@@ -78,14 +91,6 @@ layout: default
       </div>
     {% endif %}
 
-    {% if page.social %}
-    <div class="social">
-      <div class="contact-icons">
-        {% include social.html %}
-      </div>
-      <div class="contact-note">{{ site.contact_note }}</div>
-    </div>
-    {% endif %}
   </article>
 
 </div>
