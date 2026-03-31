@@ -5,7 +5,7 @@ inline: true
 title: Geometric Deep Learning for Protein Structure Data with PyTorch Lightning
 html: https://github.com/PickyBinders/geometric-learning-protein-structures-course
 authors:
-    - name: Janani Durairaj, Peter Skrinjar, Daniil Litvinov
+    - name: Jay, Peter Škrinjar, Daniil Litvinov
 ---
 
 

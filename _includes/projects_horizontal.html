@@ -1,5 +1,10 @@
 <div class="project-item">
-  <h3>{{ project.title }}</h3>
+  <h3 data-toggle="collapse" data-target="#project-{{ project.title | slugify }}" aria-expanded="false" class="project-toggle">
+    {{ project.title }}
+    {% if project.authors or project.abstract != "" %}
+      <i class="fas fa-chevron-down accordion-arrow"></i>
+    {% endif %}
+  </h3>
   {% if project.tagline %}
     <p class="project-tagline">{{ project.tagline }}</p>
   {% endif %}
@@ -23,4 +28,16 @@
       <a href="{{ project.website }}" target="_blank" title="Website"><i class="fas fa-globe"></i></a>
     {% endif %}
   </div>
+  {% if project.authors or project.abstract != "" %}
+  <div id="project-{{ project.title | slugify }}" class="collapse">
+    <div class="project-details">
+      {% if project.authors %}
+        <p class="project-authors">{{ project.authors }}</p>
+      {% endif %}
+      {% if project.abstract != "" %}
+        <p class="project-abstract">{{ project.abstract }}</p>
+      {% endif %}
+    </div>
+  </div>
+  {% endif %}
 </div>

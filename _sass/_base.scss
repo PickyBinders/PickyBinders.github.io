@@ -441,6 +441,47 @@ footer.page-footer {
       letter-spacing: 0.08em;
       font-size: 1.4rem;
       margin: 0 0 0.2rem 0;
+
+      &.project-toggle {
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &:hover {
+          color: var(--global-hover-color);
+        }
+
+        .accordion-arrow {
+          font-size: 0.6rem;
+          color: var(--global-text-color-light);
+          transition: transform 0.25s ease;
+        }
+
+        &[aria-expanded="true"] .accordion-arrow {
+          transform: rotate(180deg);
+        }
+      }
+    }
+
+    .project-details {
+      margin-top: 0.75rem;
+      padding-top: 0.5rem;
+      border-top: 1px dashed var(--global-divider-color);
+
+      .project-authors {
+        font-size: 0.85rem;
+        color: var(--global-text-color-light);
+        margin-bottom: 0.5rem;
+      }
+
+      .project-abstract {
+        font-size: 0.85rem;
+        color: var(--global-text-color);
+        line-height: 1.5;
+        text-align: justify;
+        text-justify: inter-word;
+      }
     }
 
     .project-tagline {
