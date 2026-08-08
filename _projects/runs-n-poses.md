@@ -4,6 +4,8 @@ title: Runs N' Poses
 tagline: A benchmark for protein-ligand co-folding prediction
 importance: 3
 github: https://github.com/plinder-org/runs-n-poses
+paper: https://www.nature.com/articles/s41594-026-01797-5
+pdf: https://rdcu.be/fhBtI
 biorxiv: https://doi.org/10.1101/2025.02.03.636309
 website: https://polarishub.io/benchmarks/plinder-org/runs-n-poses
 authors: "Peter Škrinjar, Jérôme Eberhardt, Gabriel Studer, Gerardo Tauriello, Torsten Schwede, Janani Durairaj"

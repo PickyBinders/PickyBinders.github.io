@@ -18,6 +18,12 @@
     {% if project.huggingface_space %}
       <a href="{{ project.huggingface_space }}" target="_blank" title="Hugging Face Space"><i class="fas fa-rocket"></i></a>
     {% endif %}
+    {% if project.paper %}
+      <a href="{{ project.paper }}" target="_blank" title="Paper"><i class="fas fa-file-alt"></i></a>
+    {% endif %}
+    {% if project.pdf %}
+      <a href="{{ project.pdf }}" target="_blank" title="Free PDF"><i class="ai ai-open-access"></i></a>
+    {% endif %}
     {% if project.biorxiv %}
       <a href="{{ project.biorxiv }}" target="_blank" title="Preprint"><i class="ai ai-biorxiv"></i></a>
     {% endif %}
