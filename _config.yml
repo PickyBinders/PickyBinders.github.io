@@ -27,6 +27,7 @@ links:
 nav_pages:
   - name: research
   - name: team
+    url: /group/
   - name: publications
   - name: resources
 

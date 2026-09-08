@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+{% assign project_publication = site.data.publications | where: 'id', page.publication_key | first %}
+{% assign project_abstract = page.abstract | default: project_publication.abstract %}
 <article class="page-shell project-page">
   <a class="eyebrow back-link" href="{{ '/research/' | relative_url }}">← All research</a>
   <header class="project-header">
@@ -15,10 +17,10 @@ layout: default
       <p>{{ page.authors }}</p>
     </section>
   {% endif %}
-  {% if page.abstract %}
+  {% if project_abstract %}
     <section class="section-card">
       <h2>Abstract</h2>
-      <p>{{ page.abstract }}</p>
+      <p>{{ project_abstract }}</p>
     </section>
   {% endif %}
   {{ content }}

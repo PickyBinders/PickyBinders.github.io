@@ -9,7 +9,7 @@ description: "Context-aware deep learning for protein structure, interaction and
   <div class="hero-copy">
     <p class="hero-affiliation"><a href="{{ site.links.department }}">Department of Computational Biology</a><span><a href="https://www.unil.ch/">University of Lausanne</a></span></p>
     <h1>Context-aware<br>deep learning<span class="hero-subject">for protein structure,<br>interaction &amp; design.</span></h1>
-    <div class="hero-actions"><a href="{{ '/research/' | relative_url }}">Research ↗</a><a href="{{ '/team/' | relative_url }}">People ↗</a></div>
+    <div class="hero-actions"><a href="{{ '/research/' | relative_url }}">Research ↗</a><a href="{{ '/group/' | relative_url }}">People ↗</a></div>
   </div>
   <div class="hero-visual">
     <img class="logo-light" src="{{ '/assets/img/pb_logo_black.png' | relative_url }}" alt="Picky Binders" width="320" height="320">
@@ -44,5 +44,4 @@ description: "Context-aware deep learning for protein structure, interaction and
 
 <section class="home-section home-join">
   <div><h2>Upcoming positions</h2><p>PhD · Postdoc</p></div>
-  <a href="mailto:{{ site.email }}">Interested? Email Jay ↗</a>
 </section>

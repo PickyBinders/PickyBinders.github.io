@@ -12,6 +12,7 @@
         <li class="nav-item"><a class="nav-link{% if page.url == '/' %} active{% endif %}" href="{{ '/' | relative_url }}">Home</a></li>
         {% for nav in site.nav_pages %}
         {% assign nav_path = '/' | append: nav.name | append: '/' %}
+        {% assign nav_path = nav.url | default: nav_path %}
         <li class="nav-item"><a class="nav-link{% if page.url == nav_path or page.url contains nav_path %} active{% endif %}" href="{{ nav_path | relative_url }}">{{ nav.name | capitalize }}</a></li>
         {% endfor %}
       </ul>

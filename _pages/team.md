@@ -1,7 +1,7 @@
 ---
 title: "Team"
 layout: gridlay
-permalink: /team/
+permalink: /group/
 description: "People, research interests and upcoming positions. Department of Computational Biology, University of Lausanne."
 ---
 
