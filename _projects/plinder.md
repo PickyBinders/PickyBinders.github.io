@@ -1,8 +1,13 @@
 ---
-layout: page
+layout: project
 title: PLINDER
-tagline: The protein-ligand interactions dataset and evaluation resource
+full_name: Protein-Ligand INteraction Dataset and Evaluation Resource
+tagline: Protein–ligand data · Task-specific splits · Evaluation
 importance: 5
+featured: true
+research_area: interactions
+publication_key: durairaj2024plinder
+logo: /assets/img/plinder-logo.png
 github: https://github.com/plinder-org/plinder
 biorxiv: https://www.biorxiv.org/content/10.1101/2024.07.17.603955
 website: https://www.plinder.sh/

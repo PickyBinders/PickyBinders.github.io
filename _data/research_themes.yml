@@ -1,0 +1,12 @@
+- id: interactions
+  title: Molecular interactions
+  concepts: [complexes, interfaces, specificity]
+  tags: [protein–ligand cofolding, stoichiometry, generalization]
+- id: representations
+  title: Protein representations
+  concepts: [language models, homology, function]
+  tags: [learned alphabets, evolutionary relationships, sequence & structure]
+- id: design
+  title: Protein design
+  concepts: [binders, sequences, sampling]
+  tags: [de novo design, binding interfaces, conformational sampling]

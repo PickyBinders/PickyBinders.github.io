@@ -1,0 +1,25 @@
+picky-parchment:
+  label: "Picky parchment"
+  grain: 0.055
+  light:
+    bg: "#eeecf1"
+    bg_secondary: "#e2dee8"
+    surface: "#faf8f3"
+    text: "#211f23"
+    text_secondary: "#57525b"
+    muted: "#77717b"
+    border: "#cbc5d0"
+    accent: "#746381"
+    accent_hover: "#594b65"
+    accent_soft: "rgba(116, 99, 129, 0.11)"
+  dark:
+    bg: "#151418"
+    bg_secondary: "#1d1b21"
+    surface: "#242128"
+    text: "#eee9df"
+    text_secondary: "#c1bac1"
+    muted: "#99919b"
+    border: "#3c3740"
+    accent: "#ad9aba"
+    accent_hover: "#c6b5d1"
+    accent_soft: "rgba(173, 154, 186, 0.13)"

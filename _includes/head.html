@@ -1,49 +1,49 @@
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.url == '/' %}{{ site.name | escape }}{% elsif page.title %}{{ page.title | escape }} · {{ site.name | escape }}{% else %}{{ site.name | escape }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description | strip_html | escape }}">
+  <meta name="theme-color" content="#746381">
 
-<title>
-{% if site.title == "blank" %}
-  {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
-{% else %}
-  {{ site.title }}
-{% endif %}
-{% if page.title != "blank" and page.url != "/" %}
-  | {{ page.title }}
-{% endif %}
-</title>
-<meta name="description" content="{{ site.description }}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.name | escape }}">
+  <meta property="og:description" content="{{ page.description | default: site.description | strip_html | escape }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ '/assets/img/team/group-1280.jpg' | absolute_url }}">
+  <meta name="twitter:card" content="summary_large_image">
 
-<!-- Open Graph -->
-{% if site.serve_og_meta %}
-<meta property="og:site_name" content="{{ site.description }}" />
-<meta property="og:type" content="object" />
-<meta property="og:title" content="{{ site.name }}" />
-<meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" />
-<meta property="og:description" content="{{ page.title }}" />
-<meta property="og:image" content="{%- if page.og_image -%}{{ page.og_image }}{%- else -%}{{ site.og_image }}{%- endif -%}" />
-{% endif %}
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
 
-<!-- Bootstrap & MDB -->
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/{{ site.bootstrap.version }}/css/bootstrap.min.css" rel="stylesheet" integrity="{{ site.bootstrap.integrity.css }}" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/{{ site.mdb.version }}/css/mdb.min.css" integrity="{{ site.mdb.integrity.css }}" crossorigin="anonymous" />
+  <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | absolute_url }}">
+  <link rel="icon" type="image/png" href="{{ '/assets/img/pb_favicon.png' | relative_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name | escape }}" href="{{ '/feed.xml' | relative_url }}">
 
-<!-- Fonts & Icons -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/{{ site.fontawesome.version }}/css/all.min.css"  integrity="{{ site.fontawesome.integrity }}" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/{{ site.academicons.version }}/css/academicons.min.css" integrity="{{ site.academicons.integrity }}" crossorigin="anonymous">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&family=Material+Icons&display=swap" rel="stylesheet">
-<!-- Code Syntax Highlighting -->
-<link rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css" />
+  <script>
+    (function () {
+      var saved;
+      try { saved = localStorage.getItem('picky-theme'); } catch (error) { /* Storage may be blocked. */ }
+      var preferred = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-bs-theme', saved === 'dark' || saved === 'light' ? saved : preferred);
+    }());
+  </script>
 
-<!-- Styles -->
-<link rel="icon" type="image/png" href="{{ '/assets/img/pb_favicon.png' | relative_url }}">
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-<link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-
-{% if site.enable_darkmode %}
-<!-- Dark Mode -->
-<script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
-{% endif %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ResearchOrganization",
+    "name": {{ site.name | jsonify }},
+    "url": {{ site.url | jsonify }},
+    "description": {{ site.description | jsonify }},
+    "founder": {
+      "@type": "Person",
+      "name": "Jay",
+      "jobTitle": "Assistant Professor",
+      "sameAs": [{{ site.links.personal | jsonify }}, {{ site.links.orcid | jsonify }}, {{ site.links.google_scholar | jsonify }}]
+    },
+    "parentOrganization": {
+      "@type": "CollegeOrUniversity",
+      "name": "University of Lausanne"
+    }
+  }
+  </script>
+</head>

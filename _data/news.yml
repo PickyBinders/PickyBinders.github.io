@@ -1,0 +1,13 @@
+# Dates may be YYYY-MM when only the month is confirmed.
+- date: "2026-09"
+  headline: "The group starts at the [Department of Computational Biology, UNIL](https://www.unil.ch/dbc/en/home.html)."
+  url: https://www.unil.ch/dbc/en/home.html
+- date: "2026-09"
+  headline: "Daniil wins an [ECCB 2026 proceedings paper award](https://bsky.app/profile/eccb-europe.bsky.social/post/3mup3abpdq225) for [Stoic](https://doi.org/10.1093/bioinformatics/btag448)."
+  url: https://bsky.app/profile/eccb-europe.bsky.social/post/3mup3abpdq225
+- date: "2026-06-24"
+  headline: "Diana and Rok teach an [AlphaFold course](https://dirapota.github.io/alphafold-training/)."
+  url: https://dirapota.github.io/alphafold-training/
+- date: "2026-06"
+  headline: "Peter wins the [J. C. W. Shepherd PhD Student Prize](https://www.biozentrum.unibas.ch/news/detail/highlights-from-the-biozentrum-retreat-2026) for [Runs N’ Poses](https://www.nature.com/articles/s41594-026-01797-5)."
+  url: https://www.biozentrum.unibas.ch/news/detail/highlights-from-the-biozentrum-retreat-2026

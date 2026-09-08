@@ -1,0 +1,15 @@
+{% assign member = include.member %}
+<article class="team-card{% if member.status == 'upcoming' %} team-card-upcoming{% endif %}" id="{{ member.id }}">
+  {% if member.photo %}
+  <img src="{{ member.photo | relative_url }}" class="team-photo" alt="{{ member.name | escape }}" width="400" height="400" loading="lazy">
+  {% else %}
+  <div class="team-avatar" aria-hidden="true"><span class="whirly{% if member.status == 'upcoming' %} upcoming-glyph{% endif %}">{{ member.glyph | default: '🏵' }}</span></div>
+  {% endif %}
+  <div class="team-card-body">
+    <h3>{{ member.name }}</h3>
+    <p class="team-role">{{ member.role }}</p>
+    {% if member.tags.size > 0 %}<ul class="research-tags" aria-label="{% if member.status == 'upcoming' %}Research topics to be announced{% else %}Research interests{% endif %}">{% for tag in member.tags %}<li>{{ tag }}</li>{% endfor %}</ul>{% endif %}
+    {% if member.placement %}<p class="member-placement">{{ member.placement.label }} {% if member.placement.url %}<a href="{{ member.placement.url }}">{{ member.placement.organization }}</a>{% else %}{{ member.placement.organization }}{% endif %}</p>{% endif %}
+    {% if member.contact or member.website %}<div class="team-links">{% if member.contact %}<a href="mailto:{{ site.email }}" aria-label="Email {{ member.name | escape }}">Email ↗</a>{% endif %}{% if member.website %}<a href="{{ member.website }}">Website ↗</a>{% endif %}</div>{% endif %}
+  </div>
+</article>

@@ -1,2 +1,37 @@
-<header>
-</header>
+<nav class="navbar sticky-top navbar-expand-lg" aria-label="Primary navigation">
+  <div class="container nav-container">
+    <a class="navbar-brand" href="{{ '/' | relative_url }}">
+      <img class="logo-light" src="{{ '/assets/img/pb_logo_black.png' | relative_url }}" alt="Picky Binders — home" width="64" height="64">
+      <img class="logo-dark" src="{{ '/assets/img/pb_logo_white.png' | relative_url }}" alt="Picky Binders — home" width="64" height="64">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item"><a class="nav-link{% if page.url == '/' %} active{% endif %}" href="{{ '/' | relative_url }}">Home</a></li>
+        {% for nav in site.nav_pages %}
+        {% assign nav_path = '/' | append: nav.name | append: '/' %}
+        <li class="nav-item"><a class="nav-link{% if page.url == nav_path or page.url contains nav_path %} active{% endif %}" href="{{ nav_path | relative_url }}">{{ nav.name | capitalize }}</a></li>
+        {% endfor %}
+      </ul>
+      <div class="nav-actions">
+        <button class="icon-button" id="searchToggle" type="button" aria-label="Search site" aria-controls="searchOverlay" aria-expanded="false"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></button>
+        <button class="icon-button" id="darkModeToggle" type="button" aria-label="Switch color theme"><svg class="ui-icon theme-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg><svg class="ui-icon theme-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 13A9 9 0 0 1 11 3a9 9 0 1 0 10 10Z"/></svg></button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="search-overlay" id="searchOverlay" data-search-url="{{ '/assets/search.json' | relative_url }}" aria-hidden="true">
+  <div class="search-modal" role="dialog" aria-modal="true" aria-labelledby="searchTitle">
+    <h2 class="visually-hidden" id="searchTitle">Search the site</h2>
+    <div class="search-input-wrapper">
+      <svg class="ui-icon search-input-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>
+      <label class="visually-hidden" for="searchInput">Search projects, papers and resources</label>
+      <input type="search" class="search-input" id="searchInput" placeholder="Search projects, papers, resources…" autocomplete="off">
+      <button class="icon-button" id="searchClose" type="button" aria-label="Close search"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"/></svg></button>
+    </div>
+    <div class="search-results" id="searchResults" aria-live="polite"></div>
+  </div>
+</div>

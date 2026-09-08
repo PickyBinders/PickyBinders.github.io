@@ -1,0 +1,5 @@
+{% if include.project.logo %}
+<img class="project-logo" src="{{ include.project.logo | relative_url }}" alt="{{ include.project.title | escape }} logo" loading="lazy">
+{% elsif include.project.emoji %}
+<span class="project-emoji" aria-hidden="true">{{ include.project.emoji }}</span>
+{% endif %}

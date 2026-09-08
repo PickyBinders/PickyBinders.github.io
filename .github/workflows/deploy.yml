@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
+  schedule:
+    - cron: '17 5 * * 1'
 
 permissions:
   contents: read
@@ -21,8 +24,41 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install ImageMagick
-        run: sudo apt-get update && sudo apt-get install -y imagemagick libmagickwand-dev
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # Capture the committed inputs before restoring or refreshing any files.
+      # A new committed snapshot must never be overwritten by an older cache.
+      - name: Scope publication cache to committed inputs
+        id: publications
+        run: echo "scope=${{ hashFiles('bibliography/*.json', '_data/publication_sync.json', 'scripts/sync_publications.py', 'requirements.txt') }}" >> "$GITHUB_OUTPUT"
+
+      - name: Restore publication snapshot
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            bibliography/scholar.json
+            bibliography/metadata.json
+            _data/publication_sync.json
+          key: publications-v3-${{ steps.publications.outputs.scope }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: publications-v3-${{ steps.publications.outputs.scope }}-
+
+      - name: Install publication dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Refresh publications and abstracts
+        run: python scripts/sync_publications.py
+
+      - name: Save publication snapshot
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            bibliography/scholar.json
+            bibliography/metadata.json
+            _data/publication_sync.json
+          key: publications-v3-${{ steps.publications.outputs.scope }}-${{ github.run_id }}-${{ github.run_attempt }}
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1

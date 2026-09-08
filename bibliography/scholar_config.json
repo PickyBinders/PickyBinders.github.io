@@ -1,0 +1,53 @@
+{
+  "min_year": 2023,
+  "aliases": {
+    "Zph67rFs4hoC": "durairaj2023uncovering",
+    "qxL8FJ1GzNcC": "durairaj2024plinder",
+    "_Qo2XoVZTnwC": "skrinjar2026runs",
+    "e5wmG9Sq2KIC": "litvinov2026stoic",
+    "HDshCWvjkbEC": "pantolini2025tea",
+    "R3hNpaxXUhUC": "pantolini2026tealeaves",
+    "j3f4tGmQtD8C": "follonier2026af3"
+  },
+  "overrides": {
+    "scholar_4JMBOYKVnBMC": {
+      "doi": "10.1016/j.ajt.2026.07.026"
+    },
+    "scholar_5nxA0vEk-isC": {
+      "metadata_id": "arxiv:2304.09953"
+    },
+    "scholar_aqlVkmm33-oC": {
+      "metadata_id": "https://edoc.unibas.ch/entities/publication/5c03fea9-62f2-4d5a-8aea-6ab250d262fd"
+    },
+    "scholar_8k81kl-MbHgC": {
+      "metadata_id": "https://link.springer.com/chapter/10.1007/978-3-031-30691-4_6"
+    },
+    "scholar_RHpTSmoSYBkC": {
+      "when_venue_contains": ["2026 Workshop"],
+      "year": 2026,
+      "venue": "Preprint",
+      "abstract_source": "https://openreview.net/pdf?id=VkTvNInkUi",
+      "abstract": "Motif scaffolding is one promising direction in computational protein design where de novo protein scaffolds are designed to maintain a set of functional protein coordinates – a motif. Here we explore an AlphaFold-Multimer hallucination workflow, MotifCraft, for motif scaffolding and present approaches that improve efficiency while maintaining or improving protein generation accuracy. Our approach produces higher in silico success rates than existing diffusion-based scaffolding methods. Furthermore, we show that scaffolding a binder interface motif results in designs scoring as well, or better, according to established in silico interface metrics when we include the target protein in the workflow. Finally, we conclude that cropping the target protein to the minimal binding interface of a target protein is an effective method for scalable binder design against large proteins. MotifCraft thus enables fast, accurate, and scalable motif scaffolding as well as binder design against large protein targets."
+    },
+    "litvinov2026stoic": {
+      "when_venue_contains": ["Bioinformatics"],
+      "doi": "10.1093/bioinformatics/btag448",
+      "url": "https://doi.org/10.1093/bioinformatics/btag448",
+      "venue": "Bioinformatics",
+      "year": 2026
+    },
+    "follonier2026af3": {
+      "when_venue_contains": ["bioRxiv", "Preprint"],
+      "doi": "10.64898/2026.07.13.738147",
+      "url": "https://doi.org/10.64898/2026.07.13.738147",
+      "venue": "bioRxiv · Preprint",
+      "date": "2026-07-13",
+      "year": 2026
+    },
+    "pantolini2025tea": {"when_venue_contains": ["bioRxiv", "Preprint"], "venue": "bioRxiv · Preprint"},
+    "pantolini2026tealeaves": {"when_venue_contains": ["bioRxiv", "Preprint"], "venue": "bioRxiv · Preprint"},
+    "durairaj2024plinder": {"when_venue_contains": ["bioRxiv", "Preprint"], "venue": "bioRxiv · Preprint"}
+  },
+  "exclude_scholar_ids": ["r0BpntZqJG4C", "_FxGoFyzp5QC", "L8Ckcad2t8MC"],
+  "required_ids": ["skrinjar2026runs", "litvinov2026stoic", "pantolini2025tea", "follonier2026af3"]
+}

@@ -1,19 +1,12 @@
 source 'https://rubygems.org'
-group :jekyll_plugins do
-    gem 'jekyll'
-    gem 'jekyll-archives'
-    gem 'jekyll-email-protect'
-    gem 'jekyll-feed'
-    gem 'jekyll-paginate-v2'
-    gem 'jekyll-responsive-image'
-    gem 'jekyll-scholar'
-    gem 'jekyll-sitemap'
-    gem 'jekyll-target-blank'
-    gem 'jekyll-twitter-plugin'
-    gem 'jekyll-regex-replace'
-    gem 'jemoji'
-    gem 'unicode_utils'
-    gem 'webrick'
-end
 
-gem "ostruct", "~> 0.6.3"
+gem "jekyll", "4.3.3"
+gem "sass-embedded", "~> 1.77.0"  # pin to avoid noisy deprecation warnings from Bootstrap SCSS
+gem "rack", ">= 2.2.3"
+gem "kramdown-parser-gfm"
+gem 'jekyll-sitemap'
+gem "webrick", "~> 1.7"
+gem "csv"
+gem "base64"
+gem "bigdecimal"
+gem "observer"

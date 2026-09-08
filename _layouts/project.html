@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<article class="page-shell project-page">
+  <a class="eyebrow back-link" href="{{ '/research/' | relative_url }}">← All research</a>
+  <header class="project-header">
+    {% include project-mark.html project=page %}
+    <h1>{{ page.title }}</h1>
+    {% if page.tagline %}<p class="project-lead">{{ page.tagline }}</p>{% endif %}
+    {% include project-links.html project=page %}
+  </header>
+  {% if page.authors %}
+    <section class="section-card project-authors-block">
+      <h2>People</h2>
+      <p>{{ page.authors }}</p>
+    </section>
+  {% endif %}
+  {% if page.abstract %}
+    <section class="section-card">
+      <h2>Abstract</h2>
+      <p>{{ page.abstract }}</p>
+    </section>
+  {% endif %}
+  {{ content }}
+</article>

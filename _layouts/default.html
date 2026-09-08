@@ -1,34 +1,12 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang }}">
-
-  <head>
-    {% if page.redirect %}<meta http-equiv="refresh" content="3; url={{ site.baseurl | prepend: site.url }}/" />{% endif %}
-    {% include head.html %}
-  </head>
-
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
-
-    <!-- Header -->
-
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  {% include head.html %}
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
     {% include header.html %}
-
-    <!-- Content -->
-
-    <div class="container mt-0">
+    <main class="site-container" id="main-content">
       {{ content }}
-    </div>
-
-    <!-- Footer -->
-
+    </main>
     {% include footer.html %}
-
   </body>
-
-  {% include scripts/jquery.html %}
-  {% include scripts/bootstrap.html %}
-  {% include scripts/mansory.html %}
-  {% include scripts/misc.html %}
-  {% include scripts/mathjax.html %}
-  {% include scripts/analytics.html %}
-
 </html>

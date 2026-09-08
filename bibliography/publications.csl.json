@@ -1,0 +1,405 @@
+[
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "7983",
+    "abstract": "We are now entering a new era in protein sequence and structure annotation, with hundreds of millions of predicted protein structures made available through the AlphaFold database 1 . These models cover nearly all proteins that are known, including those challenging to annotate for function or putative biological role using standard homology-based approaches. In this study, we examine the extent to which the AlphaFold database has structurally illuminated this ‘dark matter’ of the natural protein universe at high predicted accuracy. We further describe the protein diversity that these models cover as an annotated interactive sequence similarity network, accessible at https://uniprot3d.org/atlas/AFDB90v4 . By searching for novelties from sequence, structure and semantic perspectives, we uncovered the β-flower fold, added several protein families to Pfam database 2 and experimentally demonstrated that one of these belongs to a new superfamily of translation-targeting toxin–antitoxin systems, TumE–TumA. This work underscores the value of large-scale efforts in identifying, annotating and prioritizing new protein families. By leveraging the recent deep learning revolution in protein bioinformatics, we can now shed light into uncharted areas of the protein universe at an unprecedented scale, paving the way to innovations in life sciences and biotechnology.",
+    "DOI": "10.1038/s41586-023-06622-3",
+    "type": "article-journal",
+    "page": "646-653",
+    "source": "Crossref",
+    "title": "Uncovering new families and folds in the natural protein universe",
+    "volume": "622",
+    "author": [
+      {
+        "given": "Janani",
+        "family": "Durairaj"
+      },
+      {
+        "given": "Andrew M.",
+        "family": "Waterhouse"
+      },
+      {
+        "given": "Toomas",
+        "family": "Mets"
+      },
+      {
+        "given": "Tetiana",
+        "family": "Brodiazhenko"
+      },
+      {
+        "given": "Minhal",
+        "family": "Abdullah"
+      },
+      {
+        "given": "Gabriel",
+        "family": "Studer"
+      },
+      {
+        "given": "Gerardo",
+        "family": "Tauriello"
+      },
+      {
+        "given": "Mehmet",
+        "family": "Akdel"
+      },
+      {
+        "given": "Antonina",
+        "family": "Andreeva"
+      },
+      {
+        "given": "Alex",
+        "family": "Bateman"
+      },
+      {
+        "given": "Tanel",
+        "family": "Tenson"
+      },
+      {
+        "given": "Vasili",
+        "family": "Hauryliuk"
+      },
+      {
+        "given": "Torsten",
+        "family": "Schwede"
+      },
+      {
+        "given": "Joana",
+        "family": "Pereira"
+      }
+    ],
+    "container-title": "Nature",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          13
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.1038/s41586-023-06622-3",
+    "container-title-short": "Nature",
+    "PMCID": "PMC10584680",
+    "PMID": "37704037",
+    "id": "durairaj2023uncovering"
+  },
+  {
+    "publisher": "openRxiv",
+    "abstract": "Protein-ligand interactions (PLI) are foundational to small molecule drug design. With computational methods striving towards experimental accuracy, there is a critical demand for a well-curated and diverse PLI dataset. Existing datasets are often limited in size and diversity, and commonly used evaluation sets suffer from training information leakage, hindering the realistic assessment of method generalization capabilities. To address these shortcomings, we present PLIN-DER, the largest and most annotated dataset to date, comprising 449,383 PLI systems, each with over 500 annotations, similarity metrics at protein, pocket, interaction and ligand levels, and paired unbound ( apo ) and predicted structures. We propose an approach to generate training and evaluation splits that minimizes task-specific leakage and maximizes test set quality, and compare the resulting performance of DiffDock when retrained with different kinds of splits.",
+    "DOI": "10.1101/2024.07.17.603955",
+    "type": "manuscript",
+    "source": "Crossref",
+    "title": "PLINDER: The protein-ligand interactions dataset and evaluation resource",
+    "author": [
+      {
+        "given": "Janani",
+        "family": "Durairaj"
+      },
+      {
+        "given": "Yusuf",
+        "family": "Adeshina"
+      },
+      {
+        "given": "Zhonglin",
+        "family": "Cao"
+      },
+      {
+        "given": "Xuejin",
+        "family": "Zhang"
+      },
+      {
+        "given": "Vladas",
+        "family": "Oleinikovas"
+      },
+      {
+        "given": "Thomas",
+        "family": "Duignan"
+      },
+      {
+        "given": "Zachary",
+        "family": "McClure"
+      },
+      {
+        "given": "Xavier",
+        "family": "Robin"
+      },
+      {
+        "given": "Gabriel",
+        "family": "Studer"
+      },
+      {
+        "given": "Daniel",
+        "family": "Kovtun"
+      },
+      {
+        "given": "Emanuele",
+        "family": "Rossi"
+      },
+      {
+        "given": "Guoqing",
+        "family": "Zhou"
+      },
+      {
+        "given": "Srimukh",
+        "family": "Veccham"
+      },
+      {
+        "given": "Clemens",
+        "family": "Isert"
+      },
+      {
+        "given": "Yuxing",
+        "family": "Peng"
+      },
+      {
+        "given": "Prabindh",
+        "family": "Sundareson"
+      },
+      {
+        "given": "Mehmet",
+        "family": "Akdel"
+      },
+      {
+        "given": "Gabriele",
+        "family": "Corso"
+      },
+      {
+        "given": "Hannes",
+        "family": "Stärk"
+      },
+      {
+        "given": "Gerardo",
+        "family": "Tauriello"
+      },
+      {
+        "given": "Zachary",
+        "family": "Carpenter"
+      },
+      {
+        "given": "Michael",
+        "family": "Bronstein"
+      },
+      {
+        "given": "Emine",
+        "family": "Kucukbenli"
+      },
+      {
+        "given": "Torsten",
+        "family": "Schwede"
+      },
+      {
+        "given": "Luca",
+        "family": "Naef"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          17
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.1101/2024.07.17.603955",
+    "id": "durairaj2024plinder"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "5",
+    "DOI": "10.1038/s41594-026-01797-5",
+    "type": "article-journal",
+    "page": "782-794",
+    "source": "Crossref",
+    "title": "Evaluating generalization in protein–ligand cofolding methods",
+    "volume": "33",
+    "author": [
+      {
+        "given": "Peter",
+        "family": "Škrinjar"
+      },
+      {
+        "given": "Jérôme",
+        "family": "Eberhardt"
+      },
+      {
+        "given": "Gabriel",
+        "family": "Studer"
+      },
+      {
+        "given": "Gerardo",
+        "family": "Tauriello"
+      },
+      {
+        "given": "Torsten",
+        "family": "Schwede"
+      },
+      {
+        "given": "Janani",
+        "family": "Durairaj"
+      }
+    ],
+    "container-title": "Nature Structural & Molecular Biology",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.1038/s41594-026-01797-5",
+    "container-title-short": "Nat Struct Mol Biol",
+    "PMID": "42103936",
+    "id": "skrinjar2026runs"
+  },
+  {
+    "publisher": "openRxiv",
+    "abstract": "Motivation Protein complexes are central to cellular function, but experimental determination of their structures remains challenging. Structure prediction methods require prior knowledge of stoichiometry - the number of copies of each protein entity within a complex. Current approaches rely on computationally expensive brute-force methods that run structure prediction on multiple stoichiometry combinations, often with limited accuracy. Results We introduce Stoic , a method that uses protein language model embeddings to predict protein complex stoichiometry. Our approach learns to identify interface residues that participate in protein-protein interactions, rather than relying on global sequence features. By integrating these interface-aware embeddings into a graph neural network, Stoic achieves fast and accurate stoichiometry prediction for both homomeric and heteromeric targets. Availability Source code for inference and training along with web versions are available in the repository at https://github.com/PickyBinders/stoic . Contact janani.durairaj@unibas.ch",
+    "DOI": "10.64898/2026.03.13.711535",
+    "type": "manuscript",
+    "source": "Crossref",
+    "title": "Stoic: Fast and accurate protein stoichiometry prediction",
+    "author": [
+      {
+        "given": "Daniil",
+        "family": "Litvinov"
+      },
+      {
+        "given": "Lorenzo",
+        "family": "Pantolini"
+      },
+      {
+        "given": "Peter",
+        "family": "Škrinjar"
+      },
+      {
+        "given": "Gerardo",
+        "family": "Tauriello"
+      },
+      {
+        "given": "Caitlyn L.",
+        "family": "McCafferty"
+      },
+      {
+        "given": "Benjamin D.",
+        "family": "Engel"
+      },
+      {
+        "given": "Torsten",
+        "family": "Schwede"
+      },
+      {
+        "given": "Janani",
+        "family": "Durairaj"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          16
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.64898/2026.03.13.711535",
+    "id": "litvinov2026stoic"
+  },
+  {
+    "publisher": "openRxiv",
+    "abstract": "Detecting remote homology with speed and sensitivity is crucial for tasks like function annotation and structure prediction. We introduce a novel approach using contrastive learning to convert protein language model embeddings into a new 20-letter alphabet, TEA, enabling highly efficient large-scale protein homology searches. Searching with our alphabet performs on par with and complements structure-based methods without requiring any structural information, and with the speed of sequence search. Ultimately, we bring the exciting advances in protein language model representation learning to the plethora of sequence bioinformatics algorithms developed over the past half-century, offering a powerful new tool for biological discovery.",
+    "DOI": "10.1101/2025.11.27.690975",
+    "type": "manuscript",
+    "source": "Crossref",
+    "title": "Rewriting protein alphabets with language models",
+    "author": [
+      {
+        "given": "Lorenzo",
+        "family": "Pantolini"
+      },
+      {
+        "given": "Gabriel",
+        "family": "Studer"
+      },
+      {
+        "given": "Laura",
+        "family": "Engist"
+      },
+      {
+        "given": "Ieva",
+        "family": "Pudžiuvelytė"
+      },
+      {
+        "given": "Florian",
+        "family": "Pommerening"
+      },
+      {
+        "given": "Andrew Mark",
+        "family": "Waterhouse"
+      },
+      {
+        "given": "Stefan",
+        "family": "Bienert"
+      },
+      {
+        "given": "Gerardo",
+        "family": "Tauriello"
+      },
+      {
+        "given": "Martin",
+        "family": "Steinegger"
+      },
+      {
+        "given": "Torsten",
+        "family": "Schwede"
+      },
+      {
+        "given": "Janani",
+        "family": "Durairaj"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          28
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.1101/2025.11.27.690975",
+    "id": "pantolini2025tea"
+  },
+  {
+    "publisher": "openRxiv",
+    "abstract": "De novo protein design expands the functional protein universe beyond natural evolution, offering vast therapeutic and industrial potential. Monte Carlo sampling in protein design is under-explored due to the typically long simulation times required or prohibitive time requirements of current structure prediction oracles. Here we make use of a 20-letter structure-inspired alphabet derived from protein language model embeddings to score random mutagenesis-based Metropolis sampling of amino acid sequences. This facilitates fast template-guided and unconditional design, generating sequences that satisfy in silico designability criteria without known homologues. Ultimately, this unlocks a new path to fast and de novo protein design.",
+    "DOI": "10.64898/2026.02.09.704813",
+    "type": "manuscript",
+    "source": "Crossref",
+    "title": "Reading TEA leaves for\n                  <i>de novo</i>\n                  protein design",
+    "author": [
+      {
+        "given": "Lorenzo",
+        "family": "Pantolini"
+      },
+      {
+        "given": "Janani",
+        "family": "Durairaj"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          10
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.64898/2026.02.09.704813",
+    "id": "pantolini2026tealeaves"
+  }
+]

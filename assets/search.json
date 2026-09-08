@@ -1,0 +1,25 @@
+---
+layout: null
+---
+[
+{% assign searchable = site.pages | concat: site.projects | concat: site.teaching %}
+{% assign entries = '' | split: '' %}
+{% for item in searchable %}
+  {% if item.title and item.url != '/404.html' and item.sitemap != false %}
+    {% comment %}Use source metadata, not item.content: pages may not yet be Liquid-rendered here.{% endcomment %}
+    {% capture summary %}{{ item.description }} {{ item.tagline }} {{ item.abstract }}{% endcapture %}
+    {% capture entry %}{"title":{{ item.title | strip_html | jsonify }},"url":{{ item.url | relative_url | jsonify }},"content":{{ summary | markdownify | strip_html | replace: '&amp;', '&' | replace: '&quot;', '"' | normalize_whitespace | truncatewords: 220 | jsonify }}}{% endcapture %}
+    {% assign entries = entries | push: entry %}
+  {% endif %}
+{% endfor %}
+{% for member in site.data.team_members %}
+  {% capture member_url %}{{ '/team/' | relative_url }}#{{ member.id }}{% endcapture %}
+  {% capture entry %}{"title":{{ member.name | jsonify }},"url":{{ member_url | jsonify }},"content":{{ member.tags | join: ' · ' | prepend: ' ' | prepend: member.role | jsonify }}}{% endcapture %}
+  {% assign entries = entries | push: entry %}
+{% endfor %}
+{% for publication in site.data.publications %}
+  {% capture entry %}{"title":{{ publication.title | jsonify }},"url":{{ publication.url | jsonify }},"content":{{ publication.authors | append: ' · ' | append: publication.venue | append: ' · ' | append: publication.year | jsonify }}}{% endcapture %}
+  {% assign entries = entries | push: entry %}
+{% endfor %}
+{% for entry in entries %}{{ entry }}{% unless forloop.last %},{% endunless %}{% endfor %}
+]

@@ -1,0 +1,13 @@
+{% assign project = include.project %}
+<article class="project-card">
+  {% if project.logo or project.emoji %}<div class="project-card-top">{% include project-mark.html project=project %}</div>{% endif %}
+  <div class="project-card-content">
+  <h3><a href="{{ project.url | relative_url }}">{{ project.title }}{% if project.full_name %} ({{ project.full_name }}){% endif %}</a></h3>
+  <p class="project-tagline">{{ project.tagline }}</p>
+  {% include project-links.html project=project %}
+  {% if project.abstract %}
+  <button class="disclosure-button" type="button" data-toggle-target="card-{{ project.title | slugify }}" aria-expanded="false">Read abstract <span aria-hidden="true">+</span></button>
+  <div class="project-details" id="card-{{ project.title | slugify }}"><p>{{ project.abstract }}</p>{% if project.authors %}<p class="project-authors">{{ project.authors }}</p>{% endif %}</div>
+  {% endif %}
+  </div>
+</article>

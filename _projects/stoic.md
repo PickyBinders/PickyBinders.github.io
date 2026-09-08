@@ -1,8 +1,13 @@
 ---
-layout: page
+layout: project
 title: Stoic
 tagline: Fast and accurate protein stoichiometry prediction
 importance: 1
+featured: true
+research_area: interactions
+publication_key: litvinov2026stoic
+paper: https://doi.org/10.1093/bioinformatics/btag448
+emoji: "😐"
 github: https://github.com/PickyBinders/stoic
 huggingface: https://huggingface.co/PickyBinders/stoic
 huggingface_space: https://huggingface.co/spaces/PickyBinders/stoic-space

@@ -1,0 +1,871 @@
+[
+  {
+    "id": "scholar_Y0pCki6q_DkC",
+    "scholar_id": "Y0pCki6q_DkC",
+    "title": "A structural biology community assessment of AlphaFold2 applications",
+    "authors": "Mehmet Akdel, Douglas EV Pires, Eduard Porta Pardo, Jürgen Jänes, Arthur O Zalevsky, Bálint Mészáros, Patrick Bryant, Lydia L Good, Roman A Laskowski, Gabriele Pozzati, Aditi Shenoy, Wensi Zhu, Petras Kundrotas, Victoria Ruiz Serra, Carlos HM Rodrigues, Alistair S Dunham, David Burke, Neera Borkakoti, Sameer Velankar, Adam Frost, Jérôme Basquin, Kresten Lindorff-Larsen, Alex Bateman, Andrey V Kajava, Alfonso Valencia, Sergey Ovchinnikov, Janani Durairaj, David B Ascher, Janet M Thornton, Norman E Davey, Amelie Stein, Arne Elofsson, Tristan I Croll, Pedro Beltrao",
+    "venue": "Nature Structural & Molecular Biology",
+    "year": 2022,
+    "url": "https://www.nature.com/articles/s41594-022-00849-w",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:Y0pCki6q_DkC",
+    "date": "2022-11-7",
+    "pages": "1-12",
+    "detail_fetched": true,
+    "profile_signature": [
+      "A structural biology community assessment of AlphaFold2 applications",
+      "Nature Structural & Molecular Biology, 1-12 , 2022",
+      2022
+    ]
+  },
+  {
+    "id": "scholar_KlAtU1dfN6UC",
+    "scholar_id": "KlAtU1dfN6UC",
+    "title": "Artificial intelligence for natural product drug discovery",
+    "authors": "Michael W Mullowney, Katherine R Duncan, Somayah S Elsayed, Neha Garg, Justin JJ van der Hooft, Nathaniel I Martin, David Meijer, Barbara R Terlouw, Friederike Biermann, Kai Blin, Janani Durairaj, Marina Gorostiola González, Eric JN Helfrich, Florian Huber, Stefan Leopold-Messer, Kohulan Rajan, Tristan de Rond, Jeffrey A van Santen, Maria Sorokina, Marcy J Balunas, Mehdi A Beniddir, Doris A van Bergeijk, Laura M Carroll, Chase M Clark, Djork-Arné Clevert, Chris A Dejong, Chao Du, Scarlet Ferrinho, Francesca Grisoni, Albert Hofstetter, Willem Jespers, Olga V Kalinina, Satria A Kautsar, Hyunwoo Kim, Tiago F Leao, Joleen Masschelein, Evan R Rees, Raphael Reher, Daniel Reker, Philippe Schwaller, Marwin Segler, Michael A Skinnider, Allison S Walker, Egon L Willighagen, Barbara Zdrazil, Nadine Ziemert, Rebecca JM Goss, Pierre Guyomard, Andrea Volkamer, William H Gerwick, Hyun Uk Kim, Rolf Müller, Gilles P van Wezel, Gerard JP van Westen, Anna KH Hirsch, Roger G Linington, Serina L Robinson, Marnix H Medema",
+    "venue": "Nature Reviews Drug Discovery 22 (11), 895-916 , 2023",
+    "year": 2023,
+    "url": "https://www.nature.com/articles/s41573-023-00774-7",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:KlAtU1dfN6UC",
+    "date": "2023-11",
+    "volume": "22",
+    "issue": "11",
+    "pages": "895-916",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Artificial intelligence for natural product drug discovery",
+      "Nature Reviews Drug Discovery 22 (11), 895-916 , 2023",
+      2023
+    ]
+  },
+  {
+    "id": "scholar_Zph67rFs4hoC",
+    "scholar_id": "Zph67rFs4hoC",
+    "title": "Uncovering new families and folds in the natural protein universe",
+    "authors": "Janani Durairaj, Andrew M Waterhouse, Toomas Mets, Tetiana Brodiazhenko, Minhal Abdullah, Gabriel Studer, Gerardo Tauriello, Mehmet Akdel, Antonina Andreeva, Alex Bateman, Tanel Tenson, Vasili Hauryliuk, Torsten Schwede, Joana Pereira",
+    "venue": "Nature",
+    "year": 2023,
+    "url": "https://www.nature.com/articles/s41586-023-06622-3",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:Zph67rFs4hoC",
+    "date": "2023-10-19",
+    "volume": "622",
+    "issue": "7983",
+    "pages": "646-653",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Uncovering new families and folds in the natural protein universe",
+      "Nature 622 (7983), 646-653 , 2023",
+      2023
+    ]
+  },
+  {
+    "id": "scholar__Qo2XoVZTnwC",
+    "scholar_id": "_Qo2XoVZTnwC",
+    "title": "Evaluating generalization in protein–ligand cofolding methods",
+    "authors": "Peter Škrinjar, Jérôme Eberhardt, Gabriel Studer, Gerardo Tauriello, Torsten Schwede, Janani Durairaj",
+    "venue": "Nature Structural & Molecular Biology",
+    "year": 2026,
+    "url": "https://www.nature.com/articles/s41594-026-01797-5",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:_Qo2XoVZTnwC",
+    "date": "2026-5-8",
+    "pages": "1-13",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Evaluating generalization in protein–ligand cofolding methods",
+      "Nature Structural & Molecular Biology, 1-13 , 2026",
+      2026
+    ]
+  },
+  {
+    "id": "scholar_UebtZRa9Y70C",
+    "scholar_id": "UebtZRa9Y70C",
+    "title": "Maize resistance to witchweed through changes in strigolactone biosynthesis",
+    "authors": "C Li, L Dong, J Durairaj, J-C Guan, M Yoshimura, P Quinodoz, R Horber, K Gaus, J Li, YB Setotaw, J Qi, H De Groote, Y Wang, B Thiombiano, K Floková, A Walmsley, TV Charnikhova, A Chojnacka, S Correia de Lemos, Y Ding, D Skibbe, K Hermann, C Screpanti, A De Mesmaeker, EA Schmelz, A Menkir, M Medema, ADJ Van Dijk, J Wu, KE Koch, HJ Bouwmeester",
+    "venue": "Science",
+    "year": 2023,
+    "url": "https://www.science.org/doi/abs/10.1126/science.abq4775",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:UebtZRa9Y70C",
+    "date": "2023-1-6",
+    "volume": "379",
+    "issue": "6627",
+    "pages": "94-99",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Maize resistance to witchweed through changes in strigolactone biosynthesis",
+      "Science 379 (6627), 94-99 , 2023",
+      2023
+    ]
+  },
+  {
+    "id": "scholar_qxL8FJ1GzNcC",
+    "scholar_id": "qxL8FJ1GzNcC",
+    "title": "PLINDER: The protein-ligand interactions dataset and evaluation resource",
+    "authors": "Janani Durairaj, Yusuf Adeshina, Zhonglin Cao, Xuejin Zhang, Vladas Oleinikovas, Thomas Duignan, Zachary McClure, Xavier Robin, Gabriel Studer, Daniel Kovtun, Emanuele Rossi, Guoqing Zhou, Srimukh Veccham, Clemens Isert, Yuxing Peng, Prabindh Sundareson, Mehmet Akdel, Gabriele Corso, Hannes Stärk, Gerardo Tauriello, Zachary Carpenter, Michael Bronstein, Emine Kucukbenli, Torsten Schwede, Luca Naef",
+    "venue": "bioRxiv",
+    "year": 2024,
+    "url": "https://www.biorxiv.org/content/10.1101/2024.07.17.603955.abstract",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:qxL8FJ1GzNcC",
+    "date": "2024-7-17",
+    "pages": "2024.07. 17.603955",
+    "detail_fetched": true,
+    "profile_signature": [
+      "PLINDER: The protein-ligand interactions dataset and evaluation resource",
+      "bioRxiv, 2024.07. 17.603955 , 2024",
+      2024
+    ]
+  },
+  {
+    "id": "scholar_u5HHmVD_uO8C",
+    "scholar_id": "u5HHmVD_uO8C",
+    "title": "An analysis of characterized plant sesquiterpene synthases",
+    "authors": "Janani Durairaj, Alice Di Girolamo, Harro J Bouwmeester, Dick De Ridder, Jules Beekwilder, Aalt Dj Van Dijk",
+    "venue": "Phytochemistry",
+    "year": 2019,
+    "url": "https://www.sciencedirect.com/science/article/pii/S0031942218301791",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:u5HHmVD_uO8C",
+    "date": "2019-2-1",
+    "volume": "158",
+    "pages": "157-165",
+    "detail_fetched": true,
+    "profile_signature": [
+      "An analysis of characterized plant sesquiterpene synthases",
+      "Phytochemistry 158, 157-165 , 2019",
+      2019
+    ]
+  },
+  {
+    "id": "scholar_4TOpqqG69KYC",
+    "scholar_id": "4TOpqqG69KYC",
+    "title": "Embedding-based alignment: combining protein language models with dynamic programming alignment to detect structural similarities in the twilight-zone",
+    "authors": "Lorenzo Pantolini, Gabriel Studer, Joana Pereira, Janani Durairaj, Gerardo Tauriello, Torsten Schwede",
+    "venue": "Bioinformatics",
+    "year": 2024,
+    "url": "https://academic.oup.com/bioinformatics/article-abstract/40/1/btad786/7510842",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:4TOpqqG69KYC",
+    "date": "2024-1-4",
+    "pages": "btad786",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Embedding-based alignment: combining protein language models with dynamic programming alignment to detect structural similarities in the twilight-zone",
+      "Bioinformatics, btad786 , 2024",
+      2024
+    ]
+  },
+  {
+    "id": "scholar_MXK_kJrjxJIC",
+    "scholar_id": "MXK_kJrjxJIC",
+    "title": "New prediction categories in CASP15",
+    "authors": "Andriy Kryshtafovych, Maciej Antczak, Marta Szachniuk, Tomasz Zok, Rachael C Kretsch, Ramya Rangan, Phillip Pham, Rhiju Das, Xavier Robin, Gabriel Studer, Janani Durairaj, Jerome Eberhardt, Aaron Sweeney, Maya Topf, Torsten Schwede, Krzysztof Fidelis, John Moult",
+    "venue": "Proteins: Structure, Function, and Bioinformatics",
+    "year": 2023,
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.26515",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:MXK_kJrjxJIC",
+    "date": "2023-12",
+    "volume": "91",
+    "issue": "12",
+    "pages": "1550-1557",
+    "detail_fetched": true,
+    "profile_signature": [
+      "New prediction categories in CASP15",
+      "Proteins: Structure, Function, and Bioinformatics 91 (12), 1550-1557 , 2023",
+      2023
+    ]
+  },
+  {
+    "id": "scholar_ULOm3_A8WrAC",
+    "scholar_id": "ULOm3_A8WrAC",
+    "title": "Assessment of protein–ligand complexes in CASP15",
+    "authors": "Xavier Robin, Gabriel Studer, Janani Durairaj, Jerome Eberhardt, Torsten Schwede, W Patrick Walters",
+    "venue": "Proteins: Structure, Function, and Bioinformatics",
+    "year": 2023,
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.26601",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:ULOm3_A8WrAC",
+    "date": "2023-12",
+    "volume": "91",
+    "issue": "12",
+    "pages": "1811-1821",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Assessment of protein–ligand complexes in CASP15",
+      "Proteins: Structure, Function, and Bioinformatics 91 (12), 1811-1821 , 2023",
+      2023
+    ]
+  },
+  {
+    "id": "scholar_2osOgNQ5qMEC",
+    "scholar_id": "2osOgNQ5qMEC",
+    "title": "Geometricus represents protein structures as shape-mers derived from moment invariants",
+    "authors": "Janani Durairaj, Mehmet Akdel, Dick de Ridder, Aalt DJ van Dijk",
+    "venue": "Bioinformatics",
+    "year": 2020,
+    "url": "https://academic.oup.com/bioinformatics/article-abstract/36/Supplement_2/i718/6055902",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:2osOgNQ5qMEC",
+    "date": "2020-12",
+    "volume": "36",
+    "issue": "Supplement_2",
+    "pages": "i718-i725",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Geometricus represents protein structures as shape-mers derived from moment invariants",
+      "Bioinformatics 36 (Supplement_2), i718-i725 , 2020",
+      2020
+    ]
+  },
+  {
+    "id": "scholar_u-x6o8ySG0sC",
+    "scholar_id": "u-x6o8ySG0sC",
+    "title": "Caretta–A multiple protein structure alignment and feature extraction suite",
+    "authors": "Mehmet Akdel, Janani Durairaj, Dick de Ridder, Aalt DJ van Dijk",
+    "venue": "Computational and structural biotechnology journal",
+    "year": 2020,
+    "url": "https://spj.science.org/doi/abs/10.1016/j.csbj.2020.03.011",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:u-x6o8ySG0sC",
+    "date": "2020-1-1",
+    "volume": "18",
+    "pages": "981-992",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Caretta–A multiple protein structure alignment and feature extraction suite",
+      "Computational and structural biotechnology journal 18, 981-992 , 2020",
+      2020
+    ]
+  },
+  {
+    "id": "scholar_YsMSGLbcyi4C",
+    "scholar_id": "YsMSGLbcyi4C",
+    "title": "The tomato cytochrome P450 CYP712G1 catalyses the double oxidation of orobanchol en route to the rhizosphere signalling strigolactone, solanacol",
+    "authors": "Yanting Wang, Janani Durairaj, Hernando G Suárez Duran, Robin van Velzen, Kristyna Flokova, Che‐Yang Liao, Aleksandra Chojnacka, Stuart MacFarlane, M Eric Schranz, Marnix H Medema, Aalt DJ van Dijk, Lemeng Dong, Harro J Bouwmeester",
+    "venue": "New Phytologist",
+    "year": 2022,
+    "url": "https://nph.onlinelibrary.wiley.com/doi/abs/10.1111/nph.18272",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:YsMSGLbcyi4C",
+    "date": "2022-9",
+    "volume": "235",
+    "issue": "5",
+    "pages": "1884-1899",
+    "detail_fetched": true,
+    "profile_signature": [
+      "The tomato cytochrome P450 CYP712G1 catalyses the double oxidation of orobanchol en route to the rhizosphere signalling strigolactone, solanacol",
+      "New Phytologist 235 (5), 1884-1899 , 2022",
+      2022
+    ]
+  },
+  {
+    "id": "scholar_9yKSN-GCB0IC",
+    "scholar_id": "9yKSN-GCB0IC",
+    "title": "Integrating structure-based machine learning and co-evolution to investigate specificity in plant sesquiterpene synthases",
+    "authors": "Janani Durairaj, Elena Melillo, Harro J Bouwmeester, Jules Beekwilder, Dick de Ridder, Aalt DJ van Dijk",
+    "venue": "PLOS Computational Biology",
+    "year": 2021,
+    "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008197",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:9yKSN-GCB0IC",
+    "date": "2021-3-22",
+    "volume": "17",
+    "issue": "3",
+    "pages": "e1008197",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Integrating structure-based machine learning and co-evolution to investigate specificity in plant sesquiterpene synthases",
+      "PLOS Computational Biology 17 (3), e1008197 , 2021",
+      2021
+    ]
+  },
+  {
+    "id": "scholar_Se3iqnhoufwC",
+    "scholar_id": "Se3iqnhoufwC",
+    "title": "Beyond sequence: Structure-based machine learning",
+    "authors": "Janani Durairaj, Dick de Ridder, Aalt DJ van Dijk",
+    "venue": "Computational and Structural Biotechnology Journal 21, 630-643 , 2023",
+    "year": 2023,
+    "url": "https://spj.science.org/doi/abs/10.1016/j.csbj.2022.12.039",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:Se3iqnhoufwC",
+    "date": "2023-1-1",
+    "volume": "21",
+    "pages": "630-643",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Beyond sequence: Structure-based machine learning",
+      "Computational and Structural Biotechnology Journal 21, 630-643 , 2023",
+      2023
+    ]
+  },
+  {
+    "id": "scholar_hC7cP41nSMkC",
+    "scholar_id": "hC7cP41nSMkC",
+    "title": "Assessment of pharmaceutical protein–ligand pose and affinity predictions in CASP16",
+    "authors": "Michael K Gilson, Jerome Eberhardt, Peter Škrinjar, Janani Durairaj, Xavier Robin, Andriy Kryshtafovych",
+    "venue": "Proteins: Structure, Function, and Bioinformatics",
+    "year": 2026,
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.70061",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:hC7cP41nSMkC",
+    "date": "2026-1",
+    "volume": "94",
+    "issue": "1",
+    "pages": "249-266",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Assessment of pharmaceutical protein–ligand pose and affinity predictions in CASP16",
+      "Proteins: Structure, Function, and Bioinformatics 94 (1), 249-266 , 2026",
+      2026
+    ]
+  },
+  {
+    "id": "scholar_kNdYIx-mwKoC",
+    "scholar_id": "kNdYIx-mwKoC",
+    "title": "Protein target highlights in CASP15: Analysis of models by structure providers",
+    "authors": "Leila T Alexander, Janani Durairaj, Andriy Kryshtafovych, Luciano A Abriata, Yusupha Bayo, Gira Bhabha, Cécile Breyton, Simon G Caulton, James Chen, Séraphine Degroux, Damian C Ekiert, Benedikte S Erlandsen, Lydia Freddolino, Dominic Gilzer, Chris Greening, Jonathan M Grimes, Rhys Grinter, Manickam Gurusaran, Marcus D Hartmann, Charlie J Hitchman, Jeremy R Keown, Ashleigh Kropp, Petri Kursula, Andrew L Lovering, Bruno Lemaitre, Andrea Lia, Shiheng Liu, Maria Logotheti, Shuze Lu, Sigurbjörn Markússon, Mitchell D Miller, George Minasov, Hartmut H Niemann, Felipe Opazo, George N Phillips Jr, Owen R Davies, Samuel Rommelaere, Monica Rosas‐Lemus, Pietro Roversi, Karla Satchell, Nathan Smith, Mark A Wilson, Kuan‐Lin Wu, Xian Xia, Han Xiao, Wenhua Zhang, Z Hong Zhou, Krzysztof Fidelis, Maya Topf, John Moult, Torsten Schwede",
+    "venue": "Proteins: Structure, Function, and Bioinformatics",
+    "year": 2023,
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.26545",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:kNdYIx-mwKoC",
+    "date": "2023-12",
+    "volume": "91",
+    "issue": "12",
+    "pages": "1571-1599",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Protein target highlights in CASP15: Analysis of models by structure providers",
+      "Proteins: Structure, Function, and Bioinformatics 91 (12), 1571-1599 , 2023",
+      2023
+    ]
+  },
+  {
+    "id": "scholar_qjMakFHDy7sC",
+    "scholar_id": "qjMakFHDy7sC",
+    "title": "The santalene synthase from Cinnamomum camphora: Reconstruction of a sesquiterpene synthase from a monoterpene synthase",
+    "authors": "Alice Di Girolamo, Janani Durairaj, Adèle van Houwelingen, Francel Verstappen, Dirk Bosch, Katarina Cankar, Harro Bouwmeester, Dick de Ridder, Aalt DJ van Dijk, Jules Beekwilder",
+    "venue": "Archives of Biochemistry and Biophysics",
+    "year": 2020,
+    "url": "https://www.sciencedirect.com/science/article/pii/S0003986120306561",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:qjMakFHDy7sC",
+    "date": "2020-11-30",
+    "volume": "695",
+    "pages": "108647",
+    "detail_fetched": true,
+    "profile_signature": [
+      "The santalene synthase from Cinnamomum camphora: Reconstruction of a sesquiterpene synthase from a monoterpene synthase",
+      "Archives of Biochemistry and Biophysics 695, 108647 , 2020",
+      2020
+    ]
+  },
+  {
+    "id": "scholar_YOwf2qJgpHMC",
+    "scholar_id": "YOwf2qJgpHMC",
+    "title": "Automated benchmarking of combined protein structure and ligand conformation prediction",
+    "authors": "Michèle Leemann, Ander Sagasta, Jerome Eberhardt, Torsten Schwede, Xavier Robin, Janani Durairaj",
+    "venue": "Proteins: Structure, Function, and Bioinformatics",
+    "year": 2023,
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.26605",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:YOwf2qJgpHMC",
+    "date": "2023-10-26",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Automated benchmarking of combined protein structure and ligand conformation prediction",
+      "Proteins: Structure, Function, and Bioinformatics , 2023",
+      2023
+    ]
+  },
+  {
+    "id": "scholar__kc_bZDykSQC",
+    "scholar_id": "_kc_bZDykSQC",
+    "title": "Structural implications of BK polyomavirus sequence variations in the major viral capsid protein Vp1 and large T-antigen: a computational study",
+    "authors": "Janani Durairaj, Océane M Follonier, Karoline Leuzinger, Leila T Alexander, Maud Wilhelm, Joana Pereira, Caroline A Hillenbrand, Fabian H Weissbach, Torsten Schwede, Hans H Hirsch",
+    "venue": "Msphere",
+    "year": 2024,
+    "url": "https://journals.asm.org/doi/abs/10.1128/msphere.00799-23",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:_kc_bZDykSQC",
+    "date": "2024-4-23",
+    "volume": "9",
+    "issue": "4",
+    "pages": "e00799-23",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Structural implications of BK polyomavirus sequence variations in the major viral capsid protein Vp1 and large T-antigen: a computational study",
+      "Msphere 9 (4), e00799-23 , 2024",
+      2024
+    ]
+  },
+  {
+    "id": "scholar_qUcmZB5y_30C",
+    "scholar_id": "qUcmZB5y_30C",
+    "title": "The Viral AlphaFold Database of monomers and homodimers reveals conserved protein folds in viruses of bacteria, archaea, and eukaryotes",
+    "authors": "Roni Odai, Michèle Leemann, Tamim Al-Murad, Minhal Abdullah, Lena Shyrokova, Tanel Tenson, Vasili Hauryliuk, Janani Durairaj, Joana Pereira, Gemma C Atkinson",
+    "venue": "Science Advances",
+    "year": 2025,
+    "url": "https://www.science.org/doi/abs/10.1126/sciadv.adz8560",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:qUcmZB5y_30C",
+    "date": "2025-10-1",
+    "volume": "11",
+    "issue": "40",
+    "pages": "eadz8560",
+    "detail_fetched": true,
+    "profile_signature": [
+      "The Viral AlphaFold Database of monomers and homodimers reveals conserved protein folds in viruses of bacteria, archaea, and eukaryotes",
+      "Science Advances 11 (40), eadz8560 , 2025",
+      2025
+    ]
+  },
+  {
+    "id": "scholar_TQgYirikUcIC",
+    "scholar_id": "TQgYirikUcIC",
+    "title": "A fully automated benchmarking suite to compare macromolecular complexes",
+    "authors": "Gabriel Studer, Xavier Robin, Stefan Bienert, Janani Durairaj, Peter Škrinjar, Gerardo Tauriello, Andrew Mark Waterhouse, Torsten Schwede",
+    "venue": "Nature methods 23 (2), 387-394 , 2026",
+    "year": 2026,
+    "url": "https://www.nature.com/articles/s41592-025-02973-z",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:TQgYirikUcIC",
+    "date": "2026-2",
+    "volume": "23",
+    "issue": "2",
+    "pages": "387-394",
+    "detail_fetched": true,
+    "profile_signature": [
+      "A fully automated benchmarking suite to compare macromolecular complexes",
+      "Nature methods 23 (2), 387-394 , 2026",
+      2026
+    ]
+  },
+  {
+    "id": "scholar_mB3voiENLucC",
+    "scholar_id": "mB3voiENLucC",
+    "title": "Beyond Single Chains: Benchmarking Macromolecular Complex Prediction Methods With the Continuous Automated Model EvaluatiOn (CAMEO)",
+    "authors": "Xavier Robin, Peter Škrinjar, Andrew M Waterhouse, Gabriel Studer, Gerardo Tauriello, Janani Durairaj, Torsten Schwede",
+    "venue": "Proteins: Structure, Function, and Bioinformatics",
+    "year": 2026,
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.70060",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:mB3voiENLucC",
+    "date": "2026-1",
+    "volume": "94",
+    "issue": "1",
+    "pages": "403-413",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Beyond Single Chains: Benchmarking Macromolecular Complex Prediction Methods With the Continuous Automated Model EvaluatiOn (CAMEO)",
+      "Proteins: Structure, Function, and Bioinformatics 94 (1), 403-413 , 2026",
+      2026
+    ]
+  },
+  {
+    "id": "scholar_-f6ydRqryjwC",
+    "scholar_id": "-f6ydRqryjwC",
+    "title": "Large-scale protein clustering in the age of deep learning",
+    "authors": "Joana Pereira, Lorenzo Pantolini, Janani Durairaj, Torsten Schwede",
+    "venue": "Current Opinion in Structural Biology 94, 103078 , 2025",
+    "year": 2025,
+    "url": "https://www.sciencedirect.com/science/article/pii/S0959440X2500096X",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:-f6ydRqryjwC",
+    "date": "2025-10-1",
+    "volume": "94",
+    "pages": "103078",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Large-scale protein clustering in the age of deep learning",
+      "Current Opinion in Structural Biology 94, 103078 , 2025",
+      2025
+    ]
+  },
+  {
+    "id": "scholar_5nxA0vEk-isC",
+    "scholar_id": "5nxA0vEk-isC",
+    "title": "Tunable and portable extreme-scale drug discovery platform at exascale: the lIGATE approach",
+    "authors": "Gianluca Palermo, Gianmarco Accordi, Davide Gadioli, Emanuele Vitali, Cristina Silvano, Bruno Guindani, Danilo Ardagna, Andrea Rosario Beccari, Domenico Bonanni, Carmine Talarico, F Lughini, Jan Martinovic, Paulo Silva, Ada Bohm, Jakub Beranek, Jan Krenek, Branislav Jansik, Biagio Cosenza, Luigi Crisci, Peter Thoman, Philip Salzmann, Thomas Fahringer, Leila T Alexander, Gerardo Tauriello, Torsten Schwede, Janani Durairaj, Andrew Emerson, Federico Ficarelli, Sebastian Wingbermühle, E Lindhal, Daniele Gregori, Emanuele Sana, Silvano Coletti, Philipp Gschwandtner",
+    "venue": "Proceedings of the 20th ACM International Conference on Computing Frontiers",
+    "year": 2023,
+    "url": "https://dl.acm.org/doi/abs/10.1145/3587135.3592172",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:5nxA0vEk-isC",
+    "date": "2023-5-9",
+    "pages": "272-278",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Tunable and portable extreme-scale drug discovery platform at exascale: the lIGATE approach",
+      "Proceedings of the 20th ACM International Conference on Computing Frontiers … , 2023",
+      2023
+    ]
+  },
+  {
+    "id": "scholar_HDshCWvjkbEC",
+    "scholar_id": "HDshCWvjkbEC",
+    "title": "Rewriting protein alphabets with language models",
+    "authors": "Lorenzo Pantolini, Gabriel Studer, Laura Engist, Ieva Pudžiuvelytė, Florian Pommerening, Andrew Mark Waterhouse, Stefan Bienert, Gerardo Tauriello, Martin Steinegger, Torsten Schwede, Janani Durairaj",
+    "venue": "bioRxiv",
+    "year": 2025,
+    "url": "https://www.biorxiv.org/content/10.1101/2025.11.27.690975.abstract",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:HDshCWvjkbEC",
+    "date": "2025-11-28",
+    "pages": "2025.11. 27.690975",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Rewriting protein alphabets with language models",
+      "bioRxiv, 2025.11. 27.690975 , 2025",
+      2025
+    ]
+  },
+  {
+    "id": "scholar_IjCSPb-OGe4C",
+    "scholar_id": "IjCSPb-OGe4C",
+    "title": "Fast and adaptive protein structure representations for machine learning",
+    "authors": "Janani Durairaj, Mehmet Akdel, Dick de Ridder, Aalt DJ van Dijk",
+    "venue": "bioRxiv",
+    "year": 2021,
+    "url": "https://www.biorxiv.org/content/10.1101/2021.04.07.438777.abstract",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:IjCSPb-OGe4C",
+    "date": "2021-4-8",
+    "pages": "2021.04. 07.438777",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Fast and adaptive protein structure representations for machine learning",
+      "bioRxiv, 2021.04. 07.438777 , 2021",
+      2021
+    ]
+  },
+  {
+    "id": "scholar_ufrVoPGSRksC",
+    "scholar_id": "ufrVoPGSRksC",
+    "title": "What is hidden in the darkness? Characterization of AlphaFold structural space.",
+    "authors": "Janani Durairaj, Joana Pereira, Mehmet Akdel, Torsten Schwede",
+    "venue": "bioRxiv",
+    "year": 2022,
+    "url": "https://www.biorxiv.org/content/10.1101/2022.10.11.511548.abstract",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:ufrVoPGSRksC",
+    "date": "2022",
+    "pages": "2022.10. 11.511548",
+    "detail_fetched": true,
+    "profile_signature": [
+      "What is hidden in the darkness? Characterization of AlphaFold structural space.",
+      "bioRxiv, 2022.10. 11.511548 , 2022",
+      2022
+    ]
+  },
+  {
+    "id": "scholar_dhFuZR0502QC",
+    "scholar_id": "dhFuZR0502QC",
+    "title": "Structural basis for cooperative ssDNA binding by bacteriophage protein filament P12",
+    "authors": "Lena K Träger, Morris Degen, Joana Pereira, Janani Durairaj, Raphael Dias Teixeira, Sebastian Hiller, Nicolas Huguenin-Dezot",
+    "venue": "Nucleic Acids Research",
+    "year": 2025,
+    "url": "https://academic.oup.com/nar/article-abstract/53/5/gkaf132/8063246",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:dhFuZR0502QC",
+    "date": "2025-3-24",
+    "volume": "53",
+    "issue": "5",
+    "pages": "gkaf132",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Structural basis for cooperative ssDNA binding by bacteriophage protein filament P12",
+      "Nucleic Acids Research 53 (5), gkaf132 , 2025",
+      2025
+    ]
+  },
+  {
+    "id": "scholar_R3hNpaxXUhUC",
+    "scholar_id": "R3hNpaxXUhUC",
+    "title": "Reading TEA leaves for de novo protein design",
+    "authors": "Lorenzo Pantolini, Janani Durairaj",
+    "venue": "bioRxiv",
+    "year": 2026,
+    "url": "https://www.biorxiv.org/content/10.64898/2026.02.09.704813.abstract",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:R3hNpaxXUhUC",
+    "date": "2026-2-10",
+    "pages": "2026.02. 09.704813",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Reading TEA leaves for de novo protein design",
+      "bioRxiv, 2026.02. 09.704813 , 2026",
+      2026
+    ]
+  },
+  {
+    "id": "scholar_Wp0gIr-vW9MC",
+    "scholar_id": "Wp0gIr-vW9MC",
+    "title": "Identification of a unique, de novo MYCBP2 variant in an individual with highly superior autobiographical memory",
+    "authors": "Andreas Papassotiropoulos, Jana Petrovska, Andreas Arnold, Aurora KR LePort, Pavlina Mastrandreas, Melanie Neutzner, Virginie Freytag, Dmytro Nesterenko, Vaibhav Gharat, Nathalie Schicktanz, Vanja Vukojevic, David Coynel, Attila Stetak, Noëlle Burri, Navid Ghaffari, Claudia Riva, Janani Durairaj, Torsten Schwede, Oliver Bieri, Johannes Gräff, Efthimios MC Skoulakis, Katharina Henke, Sven Cichon, Verdon Taylor, Craig EL Stark, James L McGaugh, Camin Dean, Dominique J-F de Quervain",
+    "venue": "medRxiv",
+    "year": 2024,
+    "url": "https://www.medrxiv.org/content/10.1101/2024.12.18.24319147.abstract",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:Wp0gIr-vW9MC",
+    "date": "2024-12-20",
+    "pages": "2024.12. 18.24319147",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Identification of a unique, de novo MYCBP2 variant in an individual with highly superior autobiographical memory",
+      "medRxiv, 2024.12. 18.24319147 , 2024",
+      2024
+    ]
+  },
+  {
+    "id": "scholar_aqlVkmm33-oC",
+    "scholar_id": "aqlVkmm33-oC",
+    "title": "LIGATE-LIgand Generator and portable drug discovery platform AT Exascale",
+    "authors": "G Palermo, G Accordi, D Gadioli, Y Zhang, E Vitali, B Guindani, D Ardagna, C Silvano, AR Beccari, D Bonanni, C Talarico, F Lughini, AD Biswas, J Martinovic, M Golasowski, P Silva, A Bohm, J Beranek, J Krenek, B Jansik, P Thoman, P Salzmann, T Fahringer, T Schwede, LT Alexander, G Tauriello, J Durairaj, B Cosenza, L Crisci, A Emerson, F Ficarelli, E Lindahl, S Wingbermühle, D Gregori, S Coletti, E Sana, P Gschwandtner",
+    "venue": "Proceedings of the 21st ACM International Conference on Computing Frontiers Workshops and Special Sessions",
+    "year": 2024,
+    "url": "https://dl.acm.org/doi/abs/10.1145/3637543.3656335",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:aqlVkmm33-oC",
+    "date": "2024-5-7",
+    "pages": "107-109",
+    "detail_fetched": true,
+    "profile_signature": [
+      "LIGATE-LIgand Generator and portable drug discovery platform AT Exascale",
+      "Proceedings of the 21st ACM International Conference on Computing Frontiers … , 2024",
+      2024
+    ]
+  },
+  {
+    "id": "scholar_e5wmG9Sq2KIC",
+    "scholar_id": "e5wmG9Sq2KIC",
+    "title": "Stoic : fast and accurate protein stoichiometry prediction",
+    "authors": "Daniil Litvinov, Lorenzo Pantolini, Peter Škrinjar, Gerardo Tauriello, Caitlyn L McCafferty, Benjamin D Engel, Torsten Schwede, Janani Durairaj",
+    "venue": "Bioinformatics",
+    "year": 2026,
+    "url": "https://academic.oup.com/bioinformatics/article-abstract/42/Supplement_2/btag448/8767267",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:e5wmG9Sq2KIC",
+    "date": "2026-8",
+    "volume": "42",
+    "issue": "Supplement_2",
+    "pages": "btag448",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Stoic : fast and accurate protein stoichiometry prediction",
+      "Bioinformatics 42 (Supplement_2), btag448 , 2026",
+      2026
+    ]
+  },
+  {
+    "id": "scholar_4JMBOYKVnBMC",
+    "scholar_id": "4JMBOYKVnBMC",
+    "title": "Designing CD8 T-cell mRNA vaccines targeting the viral large T antigen to prevent BK polyomavirus disease after kidney transplantation",
+    "authors": "Maud Wilhelm, Océane M Follonier, Anne Geng, Kristiana Mebelli, Janani Durairaj, Marion Wernli, Torsten Schwede, Hans H Hirsch",
+    "venue": "American Journal of Transplantation",
+    "year": 2026,
+    "url": "https://www.sciencedirect.com/science/article/pii/S1600613526026912",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:4JMBOYKVnBMC",
+    "date": "2026-7-27",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Designing CD8 T-cell mRNA vaccines targeting the viral large T antigen to prevent BK polyomavirus disease after kidney transplantation",
+      "American Journal of Transplantation , 2026",
+      2026
+    ]
+  },
+  {
+    "id": "scholar_j3f4tGmQtD8C",
+    "scholar_id": "j3f4tGmQtD8C",
+    "title": "Capabilities, specificity gaps and training-data dependence of AlphaFold3 across diverse application areas",
+    "authors": "Océane Follonier, Yan Liu, Pablo Campomanes, Luc Lafrenaye, Julien Racle, Daniel Alvarez, Julian van Gerwen, Ricardo Heinzmann, Jürgen Jänes, Eric Kummelstedt, Janani Durairaj, David Gfeller, Stefano Vanni, Pedro Beltrao",
+    "venue": "bioRxiv",
+    "year": 2026,
+    "url": "https://www.biorxiv.org/content/10.64898/2026.07.13.738147.abstract",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:j3f4tGmQtD8C",
+    "date": "2026",
+    "pages": "2026.07. 13.738147",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Capabilities, specificity gaps and training-data dependence of AlphaFold3 across diverse application areas",
+      "bioRxiv, 2026.07. 13.738147 , 2026",
+      2026
+    ]
+  },
+  {
+    "id": "scholar_L8Ckcad2t8MC",
+    "scholar_id": "L8Ckcad2t8MC",
+    "title": "Recombinant manufacture of santalene",
+    "authors": "J DURAIRAJ, VAN Aalt-Jan, T HESSELINK, MJ Beekwilder, E MELILLO",
+    "venue": "US Patent App. 18/717,450 , 2025",
+    "year": 2025,
+    "url": "https://patents.google.com/patent/US20250043316A1/en",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:L8Ckcad2t8MC",
+    "date": "2025-2-6",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Recombinant manufacture of santalene",
+      "US Patent App. 18/717,450 , 2025",
+      2025
+    ]
+  },
+  {
+    "id": "scholar_8k81kl-MbHgC",
+    "scholar_id": "8k81kl-MbHgC",
+    "title": "From Genomes to Variant Interpretations Through Protein Structures",
+    "authors": "Janani Durairaj, Leila Tamara Alexander, Gabriel Studer, Gerardo Tauriello, Ingrid Guarnetti Prandi, Rosalba Lepore, Giovanni Chillemi, Torsten Schwede",
+    "venue": "Exscalate4CoV: High-Performance Computing for COVID Drug Discovery",
+    "year": 2023,
+    "url": "https://link.springer.com/chapter/10.1007/978-3-031-30691-4_6",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:8k81kl-MbHgC",
+    "date": "2023-5-3",
+    "pages": "41-50",
+    "detail_fetched": true,
+    "profile_signature": [
+      "From Genomes to Variant Interpretations Through Protein Structures",
+      "Exscalate4CoV: High-Performance Computing for COVID Drug Discovery, 41-50 , 2023",
+      2023
+    ]
+  },
+  {
+    "id": "scholar_hqOjcs7Dif8C",
+    "scholar_id": "hqOjcs7Dif8C",
+    "title": "How predicted protein models help to illuminate the full protein universe",
+    "authors": "J Pereira, J Durairaj, L Pantolini, G Studer, X Robin, A Waterhouse, S Bienert, G Tauriello, T Schwede",
+    "venue": "ACTA CRYSTALLOGRAPHICA A-FOUNDATION AND ADVANCES",
+    "year": 2022,
+    "url": "https://scholar.google.com/scholar?cluster=13426873432057195566&hl=en&oi=scholarr",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:hqOjcs7Dif8C",
+    "date": "2022-8-1",
+    "volume": "78",
+    "pages": "E76-E76",
+    "detail_fetched": true,
+    "profile_signature": [
+      "How predicted protein models help to illuminate the full protein universe",
+      "ACTA CRYSTALLOGRAPHICA A-FOUNDATION AND ADVANCES 78, E76-E76 , 2022",
+      2022
+    ]
+  },
+  {
+    "id": "scholar_Tyk-4Ss8FVUC",
+    "scholar_id": "Tyk-4Ss8FVUC",
+    "title": "Computational approaches to discover novel enzymes for fragrance and flavour",
+    "authors": "Janani Durairaj",
+    "venue": "PQDT-Global , 2021",
+    "year": 2021,
+    "url": "https://research.wur.nl/en/publications/computational-approaches-to-discover-novel-enzymes-for-fragrance-/",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:Tyk-4Ss8FVUC",
+    "date": "2021",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Computational approaches to discover novel enzymes for fragrance and flavour",
+      "PQDT-Global , 2021",
+      2021
+    ]
+  },
+  {
+    "id": "scholar_d1gkVwhDpl0C",
+    "scholar_id": "d1gkVwhDpl0C",
+    "title": "Crash Course Machine Learning",
+    "authors": "GW Kootstra, ADJ van Dijk, David Rapado Rincon, J Durairaj",
+    "venue": "",
+    "year": 2020,
+    "url": "https://research.wur.nl/en/publications/crash-course-machine-learning/",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:d1gkVwhDpl0C",
+    "date": "2020-2-3",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Crash Course Machine Learning",
+      "",
+      2020
+    ]
+  },
+  {
+    "id": "scholar_r0BpntZqJG4C",
+    "scholar_id": "r0BpntZqJG4C",
+    "title": "Designing CD8 T cell messenger RNA vaccines targeting the viral large T antigen to prevent BK polyomavirus disease after kidney transplantation",
+    "authors": "Maud Wilhelm, Océane M Follonier, Anne Geng, Kristiana Mebelli, Janani Durairaj, Marion Wernli, Torsten Schwede, Hans H Hirsch",
+    "venue": "American Journal of Transplantation",
+    "year": 0,
+    "url": "https://www.amjtransplant.org/article/S1600-6135(26)02691-2/fulltext",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:r0BpntZqJG4C",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Designing CD8 T cell messenger RNA vaccines targeting the viral large T antigen to prevent BK polyomavirus disease after kidney transplantation",
+      "American Journal of Transplantation , 0",
+      0
+    ]
+  },
+  {
+    "id": "scholar_RHpTSmoSYBkC",
+    "scholar_id": "RHpTSmoSYBkC",
+    "title": "MotifCraft: scalable functional protein binder design with AlphaFold2 hallucination",
+    "authors": "Océane Follonier, Torsten Schwede, Janani Durairaj",
+    "venue": "The 2026 Workshop on Generative and Agentic AI for Biology",
+    "year": 0,
+    "url": "https://openreview.net/forum?id=VkTvNInkUi",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:RHpTSmoSYBkC",
+    "detail_fetched": true,
+    "profile_signature": [
+      "MotifCraft: scalable functional protein binder design with AlphaFold2 hallucination",
+      "The 2026 Workshop on Generative and Agentic AI for Biology , 0",
+      0
+    ]
+  },
+  {
+    "id": "scholar_ZeXyd9-uunAC",
+    "scholar_id": "ZeXyd9-uunAC",
+    "title": "Pentapetalae cytochrome P450 mRNA, complete cds.",
+    "authors": "Yanting Wang, Janani Durairaj, Hernando Suarez Duran, Robin van Velzen, Kristyna Flokova, Che Yang Liao, Aleksandra Chojnacka, Stuart Macfarlane, Eric Schranz, Marnix Medema, Aalt-Jan van Dijk, Lemeng Dong, Harro Bouwmeester",
+    "venue": "Wageningen University & Research , 0",
+    "year": 0,
+    "url": "https://www.sidalc.net/search/Record/dig-wur-nl-wurpubs-599279/Description",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:ZeXyd9-uunAC",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Pentapetalae cytochrome P450 mRNA, complete cds.",
+      "Wageningen University & Research , 0",
+      0
+    ]
+  },
+  {
+    "id": "scholar_LkGwnXOMwfcC",
+    "scholar_id": "LkGwnXOMwfcC",
+    "title": "Identification of transcriptional regulators affecting gene expression in a valencene-producing Rhodobacter sphaeroides",
+    "authors": "Alice Di Girolamo, Janani Durairaj, Thamara Hesselink, Aurin Vos, Adèle van Houwelingen, Harro J Bouwmeester, Aalt DJ",
+    "venue": "Exploring novel terpene synthases for fragrance and flavour",
+    "year": 0,
+    "url": "https://edepot.wur.nl/573954#page=111",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:LkGwnXOMwfcC",
+    "pages": "109",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Identification of transcriptional regulators affecting gene expression in a valencene-producing Rhodobacter sphaeroides",
+      "Exploring novel terpene synthases for fragrance and flavour, 109 , 0",
+      0
+    ]
+  },
+  {
+    "id": "scholar__FxGoFyzp5QC",
+    "scholar_id": "_FxGoFyzp5QC",
+    "title": "An analysis of characterized plant sesquiterpene synthases",
+    "authors": "Alice Di Girolamo, Janani Durairaj, Harro J Bouwmeester, Dick de Ridder, Jules Beekwilder, Aalt DJ van Dijk",
+    "venue": "Exploring novel terpene synthases for fragrance and flavour",
+    "year": 0,
+    "url": "https://edepot.wur.nl/573954#page=35",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:_FxGoFyzp5QC",
+    "pages": "33",
+    "detail_fetched": true,
+    "profile_signature": [
+      "An analysis of characterized plant sesquiterpene synthases",
+      "Exploring novel terpene synthases for fragrance and flavour, 33 , 0",
+      0
+    ]
+  },
+  {
+    "id": "scholar_WF5omc3nYNoC",
+    "scholar_id": "WF5omc3nYNoC",
+    "title": "The Turterra web portal for protein family data visualization and analysis",
+    "authors": "Janani Durairaj, Barbara Terlouw, Nico Louwen, Dick de Ridder, Marnix Medema, Aalt DJ van Dijk",
+    "venue": "Computational approaches to discover novel enzymes for fragrance and flavour",
+    "year": 0,
+    "url": "https://search.proquest.com/openview/6732d20df7cfa8761f17bd75f59fa252/1.pdf?pq-origsite=gscholar&cbl=2026366&diss=y#page=167",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:WF5omc3nYNoC",
+    "pages": "165",
+    "detail_fetched": true,
+    "profile_signature": [
+      "The Turterra web portal for protein family data visualization and analysis",
+      "Computational approaches to discover novel enzymes for fragrance and flavour … , 0",
+      0
+    ]
+  },
+  {
+    "id": "scholar_eQOLeE2rZwMC",
+    "scholar_id": "eQOLeE2rZwMC",
+    "title": "Matchmaker-A joint structure-molecule framework to predict protein-compound specificity",
+    "authors": "Janani Durairaj, Thamara Hesselink, Harro J Bouwmeester",
+    "venue": "Computational approaches to discover novel enzymes for fragrance and flavour",
+    "year": 0,
+    "url": "https://edepot.wur.nl/551031#page=141",
+    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:eQOLeE2rZwMC",
+    "pages": "139",
+    "detail_fetched": true,
+    "profile_signature": [
+      "Matchmaker-A joint structure-molecule framework to predict protein-compound specificity",
+      "Computational approaches to discover novel enzymes for fragrance and flavour … , 0",
+      0
+    ]
+  }
+]

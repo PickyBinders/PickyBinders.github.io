@@ -1,0 +1,25 @@
+{% assign pub = include.publication %}
+{% assign extra = site.data.publication_links[pub.id] %}
+<article class="{% if include.featured %}featured-publication{% if include.full_title %} featured-publication-full{% endif %}{% else %}publication-row{% endif %}" data-pub-searchable>
+  {% if include.featured %}
+    <div class="work-meta"><span aria-label="Selected publication">☆</span><span>{{ pub.venue | escape }} · {{ pub.year }}</span></div>
+    {% if include.full_title %}
+    <h3><a href="{{ pub.url | escape }}">{{ pub.title | escape }}</a></h3>
+    {% else %}
+    <h3><a href="{% if extra.project %}{{ extra.project | relative_url }}{% else %}{{ pub.url | escape }}{% endif %}">{{ extra.label | default: pub.title | escape }}</a></h3>
+    {% endif %}
+    <p class="work-concepts">{{ extra.concepts }}</p>
+    {% unless include.full_title %}<p class="work-title">{{ pub.title | escape }}</p>{% endunless %}
+  {% else %}
+    <h3><a href="{{ pub.url | escape }}">{{ pub.title | escape }}</a></h3>
+    <p class="publication-authors">{{ pub.authors | escape }}</p>
+    <p class="publication-venue">{{ pub.venue | escape }}{% if pub.volume and pub.volume != '' %} · {{ pub.volume }}{% endif %}{% if pub.pages and pub.pages != '' %} · {{ pub.pages }}{% endif %}</p>
+  {% endif %}
+  <div class="project-links">
+    <a href="{{ pub.url | escape }}">{% if pub.venue contains 'Preprint' or pub.venue contains 'bioRxiv' %}Preprint{% else %}Paper{% endif %} ↗</a>
+    {% if extra.code %}<a href="{{ extra.code }}">Code ↗</a>{% endif %}
+    {% if extra.website %}<a href="{{ extra.website }}">Website ↗</a>{% endif %}
+    {% if pub.scholar_url and include.featured != true %}<a href="{{ pub.scholar_url | escape }}">Scholar ↗</a>{% endif %}
+  </div>
+  {% if pub.abstract and pub.abstract != '' %}<details class="publication-abstract"><summary>Abstract</summary><p>{{ pub.abstract | escape }}</p></details>{% endif %}
+</article>

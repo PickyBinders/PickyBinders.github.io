@@ -1,0 +1,101 @@
+# One record per person or upcoming position.
+# group controls the section; status is current/upcoming/alumni.
+# Photo and placement are optional. Tags contain research topics only.
+- id: jay
+  name: "Jay (Janani Durairaj)"
+  group: unil
+  status: current
+  role: "Assistant Professor"
+  photo: /assets/img/janani-durairaj.jpg
+  tags: [protein interactions, representation learning, protein design]
+  website: https://ninjani.github.io
+  contact: true
+  order: 0
+
+- id: upcoming-phd
+  name: "PhD position"
+  group: unil
+  status: upcoming
+  role: "Upcoming"
+  glyph: "🐢"
+  tags: ["?", "?", "?"]
+  order: 1
+
+- id: upcoming-postdoc
+  name: "Postdoc position"
+  group: unil
+  status: upcoming
+  role: "Upcoming"
+  glyph: "🐈"
+  tags: ["?", "?", "?"]
+  order: 2
+
+- id: peter-skrinjar
+  name: "Peter Škrinjar"
+  group: schwede
+  status: current
+  role: "PhD researcher"
+  photo: /assets/img/team/peter_skrinjar.jpg
+  tags: [protein–ligand cofolding, flow matching]
+  placement:
+    label: "Research stay at"
+    organization: "AQlab"
+    url: https://www.aqlab.io/
+  order: 1
+
+- id: oceane-follonier
+  name: "Océane Follonier"
+  group: schwede
+  status: current
+  role: "PhD researcher"
+  photo: /assets/img/team/oceane_follonier.jpg
+  tags: [protein binder design, antibody–antigen]
+  placement:
+    label: "PhD intern at"
+    organization: "Genentech, Roche"
+  order: 2
+
+- id: daniil-litvinov
+  name: "Daniil Litvinov"
+  group: schwede
+  status: current
+  role: "PhD researcher"
+  photo: /assets/img/team/daniil_litvinov.jpg
+  tags: [protein language models, protein complexes, cryo-ET]
+  order: 3
+
+- id: diana-rapota
+  name: "Diana Rapota"
+  group: schwede
+  status: current
+  role: "PhD researcher"
+  photo: /assets/img/team/diana_rapota.jpg
+  tags: [protein language models, multiple sequence alignments, enzymes]
+  order: 4
+
+- id: rok-breznikar
+  name: "Rok Breznikar"
+  group: schwede
+  status: current
+  role: "PhD researcher"
+  photo: /assets/img/team/rok_breznikar.jpg
+  tags: [small molecules, conformational sampling]
+  order: 5
+
+- id: ieva-pudziuvelyte
+  name: "Ieva Pudžiuvelytė"
+  group: schwede
+  status: current
+  role: "PhD researcher"
+  photo: /assets/img/team/ieva_pudziuvelyte.jpg
+  tags: [protein language models, protein design, interfaces]
+  order: 6
+
+- id: brigitta-barta
+  name: "Brigitta Barta"
+  group: schwede
+  status: current
+  role: "Master’s student"
+  photo: /assets/img/team/brigitta_barta.jpg
+  tags: [nanobody design, quality metrics]
+  order: 7

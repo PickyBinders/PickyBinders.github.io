@@ -1,0 +1,301 @@
+{
+  "scholar_4JMBOYKVnBMC": {
+    "doi": "10.1016/j.ajt.2026.07.026",
+    "abstract": "BK polyomavirus (BKPyV) continues to threaten kidney transplantation outcomes by directly or indirectly causing premature allograft failure. Insufficient BKPyV-specific immunity underlies the onset and duration of BKPyV-DNAemia and nephropathy. BKPyV-specific T cells have been correlated with protection and include cytotoxic CD8 T cells targeting immunodominant 9-mer epitopes encoded in the viral large tumor antigen (LTag). To develop vaccines increasing LTag-specific T cells, we reduced the 695 amino acid-long LTag to 143 residues or less, comprising 4 clusters of immunodominant 9-mers presented by at least 54 human leukocyte antigen alleles. Prediction algorithms assisted in improved global coverage, alanine-alanine-tyrosine-linker placement, proteasomal processing, and solubility. Using a human cell culture vaccination model, transfection of adherent monocytes with large T antigen-coding nucleotide sequence 1-messenger RNA (LTAG1-mRNA) and LTAG2-mRNA demonstrated the expected 13.9 and 15.2 kD immunogens, respectively. LTAG2-mRNA induced higher CD8 T cell responses than LTAG1-mRNA, with an interferon-γ-positive CD62L-CD45RA-effector memory phenotype and cytotoxicity for BKPyV-replicating primary human renal tubular epithelial cells. We tested 3 additional candidates (LTAG3-mRNA, LTAG4-mRNA, and LTAG5-mRNA) by changing alanine-alanine-tyrosine linkers and extending immunogenic regions. The encoded immunogens were expressed and increased upon proteasome inhibitor treatment. LTag5-expanded T cells showed BKPyV-specific interferon-γ expression and cytotoxicity. Our results demonstrated novel approaches to designing modular mRNA-based vaccine candidates for clinical development of nonsecreted antigens using BKPyV as a paradigm of nonenveloped DNA viruses.",
+    "abstract_source": "https://europepmc.org/article/MED/42508646",
+    "metadata_provider": "Europe PMC",
+    "signature": [
+      "designingcd8tcellmrnavaccinestargetingthevirallargetantigentopreventbkpolyomavirusdiseaseafterkidneytransplantation",
+      "https://www.sciencedirect.com/science/article/pii/S1600613526026912",
+      "10.1016/j.ajt.2026.07.026",
+      ""
+    ],
+    "checked": "2026-09-08"
+  },
+  "follonier2026af3": {
+    "doi": "10.64898/2026.07.13.738147",
+    "abstract": "Abstract Structure prediction models have moved from single proteins to assemblies that include diverse biomolecules and their modifications. AlphaFold3 (AF3) and related models extended structural modelling via an all-atom framework, opening many new potential applications in structural biology. We evaluate how well the new capabilities of AF3 translate into application tasks in diverse areas: prediction of ubiquitinated protein structures, T-cell receptor (TCR)-epitope recognition, antibody-antigen complexes, protein-RNA and protein-lipid interactions. We find that, while AF3 can perform well in favourable settings, this performance is uneven across applications. In RNA-target predictions, the model confidence fails to separate genuine from decoy interaction partners and in several tasks accuracy depends on the presence of related complexes in the training set. Taken together, our assessment is more cautious than for AF2, whose gains in modelling monomers and complexes were clear and broadly generalisable. AF3’s extension to new biomolecule types shows less consistent performance and generalisation. AF3 can be a powerful tool for hypothesis generation and prioritisation, but its predictions and use of confidence metrics will depend strongly on the specific application area and must be interpreted with respect to training-set overlap. We expect that the benchmarks provided here will serve for testing of future developments in the structure prediction field.",
+    "abstract_source": "https://doi.org/hch2nm",
+    "metadata_provider": "Manubot",
+    "signature": [
+      "capabilitiesspecificitygapsandtrainingdatadependenceofalphafold3acrossdiverseapplicationareas",
+      "https://doi.org/10.64898/2026.07.13.738147",
+      "10.64898/2026.07.13.738147",
+      ""
+    ],
+    "checked": "2026-09-08"
+  },
+  "skrinjar2026runs": {
+    "doi": "10.1038/s41594-026-01797-5",
+    "abstract": "Deep learning has driven major breakthroughs in protein structure prediction; however, one of the next critical steps forward is accurately predicting how proteins interact with small-molecule ligands, to enable real-world applications such as drug discovery. Recent cofolding methods aim to address this challenge, but evaluating their performance has been inconclusive because of the lack of relevant benchmarking datasets. Here we present a comprehensive evaluation of four leading all-atom cofolding methods using our newly introduced benchmark dataset, Runs N' Poses. Runs N' Poses comprises 2,600 high-resolution protein-ligand systems released after the training cutoff used by these methods. We demonstrate that current cofolding approaches largely memorize ligand poses from their training data, hindering their use for de novo drug design. With this assessment and benchmark dataset, we aim to accelerate progress in the field by allowing for a more realistic assessment of the current state-of-the-art deep learning methods for predicting protein-ligand interactions.",
+    "abstract_source": "https://europepmc.org/article/MED/42103936",
+    "metadata_provider": "Europe PMC",
+    "signature": [
+      "evaluatinggeneralizationinproteinligandcofoldingmethods",
+      "https://www.nature.com/articles/s41594-026-01797-5",
+      "10.1038/s41594-026-01797-5",
+      ""
+    ],
+    "checked": "2026-09-08"
+  },
+  "scholar_TQgYirikUcIC": {
+    "doi": "10.1038/s41592-025-02973-z",
+    "abstract": "Abstract Protein structure prediction has a long history of benchmarking efforts such as critical assessment of structure prediction, continuous automated model evaluation and critical assessment of prediction of interactions. With the rise of artificial intelligence-based methods for prediction of macromolecular complexes, benchmarking with large datasets and robust, unsupervised scores to compare predictions against a reference has become essential. Also, the increasing size and complexity of experimentally determined reference structures by crystallography or cryogenic electron microscopy poses challenges for structure comparison methods. Here we review the current state of the art in scoring methodologies, identify existing limitations and present more suitable approaches for scoring of tertiary and quaternary structures, protein–protein interfaces and protein–ligand complexes. Our methods are designed to scale efficiently, enabling the assessment of large, complex systems. All developments are available in the structure benchmarking framework of OpenStructure. OpenStructure is open source software and available for free at https://openstructure.org/ .",
+    "abstract_source": "https://doi.org/hcd7r5",
+    "metadata_provider": "Manubot",
+    "signature": [
+      "afullyautomatedbenchmarkingsuitetocomparemacromolecularcomplexes",
+      "https://www.nature.com/articles/s41592-025-02973-z",
+      "",
+      ""
+    ],
+    "checked": "2026-09-08"
+  },
+  "scholar_mB3voiENLucC": {
+    "doi": "10.1002/prot.70060",
+    "abstract": "ABSTRACT Independent, blind assessment of structure prediction methods is essential for establishing state‐of‐the‐art performance, identifying limitations, and guiding future developments. The Continuous Automated Model EvaluatiOn (CAMEO) platform provides weekly, automated benchmarking of structure prediction servers, complementing the biennial Critical Assessment of Structure Prediction (CASP) experiments.",
+    "abstract_source": "https://doi.org/hcd7r7",
+    "metadata_provider": "Manubot",
+    "signature": [
+      "beyondsinglechainsbenchmarkingmacromolecularcomplexpredictionmethodswiththecontinuousautomatedmodelevaluationcameo",
+      "https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.70060",
+      "",
+      ""
+    ],
+    "checked": "2026-09-08"
+  },
+  "scholar_hC7cP41nSMkC": {
+    "doi": "10.1002/prot.70061",
+    "abstract": "ABSTRACT The protein–ligand component of the 16th Critical Assessment of Structure Prediction (CASP16) challenged participants to predict both binding poses and affinities of small molecules to protein targets, with a focus on drug‐like compounds from pharmaceutical discovery projects. Thirty research groups submitted predictions for 229 protein–ligand pose targets and 140 affinity targets across five protein systems. Among the submitted predictions, template‐based pose‐prediction methods did particularly well, with the best groups achieving mean LDDT‐PLI values of 0.69 (scale of 0–1 with 1 best). For comparison, we also ran a set of automated baseline pose‐prediction methods, including ones using deep neural networks. Of these, AlphaFold 3 did particularly well, with a mean LDDT‐PLI of 0.8, thus outscoring the best CASP16 predictor. The CASP affinity predictions showed modest correlation with experimental data (maximum Kendall's τ = 0.42), well below the theoretical maximum possible given experimental uncertainty (~0.73). As seen in prior challenges, providing experimental structures did not improve affinity predictions in the second stage of the challenge, suggesting that the scoring functions used here are a key limiting factor. Overall, the accuracy achieved by CASP participants is similar to that observed in the prior Drug Design Data Resource (D3R) blinded prediction challenges. The present results highlight the progress and persistent challenges in computational protein–ligand modeling and provide valuable benchmarks for the field of computer‐aided drug design.",
+    "abstract_source": "https://doi.org/hcd7r6",
+    "metadata_provider": "Manubot",
+    "signature": [
+      "assessmentofpharmaceuticalproteinligandposeandaffinitypredictionsincasp16",
+      "https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.70061",
+      "",
+      ""
+    ],
+    "checked": "2026-09-08"
+  },
+  "scholar_qUcmZB5y_30C": {
+    "doi": "10.1126/sciadv.adz8560",
+    "abstract": "Viruses are the most abundant and genetically diverse entities on Earth, yet the functions and evolution of most viral proteins remain poorly understood. Their rapid evolution often obscures evolutionary relationships, limiting the ability to assign functions using sequence-based methods. Although the conservation of protein fold can reveal deep homologies, viral proteins remain underrepresented in structural databases. We address this by clustering viral sequences from RefSeq and predicting the structures of ~27,000 representative proteins using AlphaFold2 to create the Viral AlphaFold Database (VAD). We uncover conserved folds in diverse viruses infecting bacteria, archaea, and eukaryotes. We predict homodimers and make comparisons to the Protein Data Bank, providing data on oligomerization potential. We reveal considerable functional darkness in the viral protein universe and report the discovery and validation of an uncharacterized toxin-antitoxin system. The VAD provides a foundation for exploring viral structure-function relationships, including ancient folds shaping viral interactions across all life.",
+    "abstract_source": "https://doi.org/g96b3b",
+    "metadata_provider": "Manubot",
+    "signature": [
+      "theviralalphafolddatabaseofmonomersandhomodimersrevealsconservedproteinfoldsinvirusesofbacteriaarchaeaandeukaryotes",
+      "https://www.science.org/doi/abs/10.1126/sciadv.adz8560",
+      "",
+      ""
+    ],
+    "checked": "2026-09-08"
+  },
+  "scholar_-f6ydRqryjwC": {
+    "doi": "10.1016/j.sbi.2025.103078",
+    "abstract": "Proteins within a family sharing sequence and structure similarity due to a common evolutionary origin often also share functional similarities. Clustering of proteins therefore offers valuable insights, enabling the transfer of features and annotations from well-studied proteins to less-investigated ones. On a local scale, clustering helps identify patterns within specific protein families. On a larger scale, it provides insights into the entire protein universe, showcasing relationships that may not be immediately apparent. Traditionally, this was done at the sequence level or with the use of experimentally resolved protein structures, but the advent of deep learning in protein bioinformatics has brought new options to the table, increasing the breadth, depth, and diversity of similarity metrics and clustering approaches.",
+    "abstract_source": "https://europepmc.org/article/MED/40517452",
+    "metadata_provider": "Europe PMC",
+    "signature": [
+      "largescaleproteinclusteringintheageofdeeplearning",
+      "https://www.sciencedirect.com/science/article/pii/S0959440X2500096X",
+      "",
+      ""
+    ],
+    "checked": "2026-09-08"
+  },
+  "scholar_dhFuZR0502QC": {
+    "doi": "10.1093/nar/gkaf132",
+    "abstract": "Abstract Protein-primed DNA replication is a unique mechanism, bioorthogonal to other known DNA replication modes. It relies on specialised single-stranded DNA (ssDNA)-binding proteins (SSBs) to stabilise ssDNA intermediates by unknown mechanisms. Here, we present the structural and biochemical characterisation of P12, an SSB from bacteriophage PRD1. High-resolution cryo-electron microscopy reveals that P12 forms a unique, cooperative filament along ssDNA. Each protomer binds the phosphate backbone of 6 nucleotides in a sequence-independent manner, protecting ssDNA from nuclease degradation. Filament formation is driven by an intrinsically disordered C-terminal tail, facilitating cooperative binding. We identify residues essential for ssDNA interaction and link the ssDNA-binding ability of P12 to toxicity in host cells. Bioinformatic analyses place the P12 fold as a distinct branch within the OB-like fold family. This work offers new insights into protein-primed DNA replication and lays a foundation for biotechnological applications.",
+    "abstract_source": "https://doi.org/hcd7sc",
+    "metadata_provider": "Manubot",
+    "signature": [
+      "structuralbasisforcooperativessdnabindingbybacteriophageproteinfilamentp12",
+      "https://academic.oup.com/nar/article-abstract/53/5/gkaf132/8063246",
+      "",
+      ""
+    ],
+    "checked": "2026-09-08"
+  },
+  "scholar_Wp0gIr-vW9MC": {
+    "doi": "10.1101/2024.12.18.24319147",
+    "abstract": "Abstract Highly Superior Autobiographical Memory (HSAM) is an extremely rare condition characterized by an individual’s unparallelled ability to recall personal past events with exceptional detail and accuracy, including exact dates and days of the week, spanning many decades 1–3 . The molecular underpinnings of HSAM are unknown. Here, we investigated an individual with HSAM through neuropsychological testing, structural brain imaging, and genetic analyses. HSAM was confirmed as an isolated exceptional cognitive ability, with brain imaging revealing exceptionally large volumes of regions within the hippocampal formation, which have been previously linked to autobiographical memory. Using whole exome sequencing of the HSAM individual and their unaffected parents, we identified a unique de novo missense variant in MYCBP2 , which encodes an E3 ubiquitin-protein ligase 4,5 . To explore the potential behavioral consequences of this variant, we introduced the homologous variant into C. elegans , which resulted in reduced forgetting and increased membrane-bound glutamate receptor in relevant neuronal cells. These findings show that the studied HSAM individual carries a unique, de novo missense variant in MYCBP2 , which reduces forgetting in a model organism. The identification of functionally relevant genetic variants in individuals with superior memory traits has the potential to inform future research into memory-modulating therapies.",
+    "abstract_source": "https://doi.org/hch2np",
+    "metadata_provider": "Manubot",
+    "signature": [
+      "identificationofauniquedenovomycbp2variantinanindividualwithhighlysuperiorautobiographicalmemory",
+      "https://www.medrxiv.org/content/10.1101/2024.12.18.24319147.abstract",
+      "",
+      ""
+    ],
+    "checked": "2026-09-08"
+  },
+  "scholar_aqlVkmm33-oC": {
+    "doi": "10.1145/3637543.3656335",
+    "abstract": "The COVID-19 pandemic demonstrates that a top priority for society, now and in the future, is to be able to respond quickly to diseases with effective treatments. Among the new tools that pharmaceutical industries and researchers have in their hands nowadays, there are the extensive computer simulations capable of evaluating in-silico the interaction between possible drugs and the target proteins. The central goal of the LIGATE project is to create and validate a leading application solution for drug discovery in High-Performance Computing (HPC) systems up to the exascale level. The overall project purpose is the automation of the drug design process, which is currently performed with substantial human effort throughout the different phases of the process: preparation of input parameters, management of data sets with billions of molecules, interaction with HPC queue management systems to handle jobs, and optimization of scoring function parameters and thresholds.",
+    "abstract_source": "https://hdl.handle.net/20.500.14716/135836",
+    "metadata_provider": "Manubot",
+    "signature": [
+      "ligateligandgeneratorandportabledrugdiscoveryplatformatexascale",
+      "https://dl.acm.org/doi/abs/10.1145/3637543.3656335",
+      "",
+      "https://edoc.unibas.ch/entities/publication/5c03fea9-62f2-4d5a-8aea-6ab250d262fd"
+    ],
+    "checked": "2026-09-08"
+  },
+  "scholar__kc_bZDykSQC": {
+    "doi": "10.1128/msphere.00799-23",
+    "abstract": "ABSTRACT BK polyomavirus (BKPyV) is a double-stranded DNA virus causing nephropathy, hemorrhagic cystitis, and urothelial cancer in transplant patients. The BKPyV-encoded capsid protein Vp1 and large T-antigen (LTag) are key targets of neutralizing antibodies and cytotoxic T-cells, respectively. Our single-center data suggested that variability in Vp1 and LTag may contribute to failing BKPyV-specific immune control and impact vaccine design. We, therefore, analyzed all available entries in GenBank (1516 VP1 ; 742 LTAG ) and explored potential structural effects using computational approaches. BKPyV-genotype (gt)1 was found in 71.18% of entries, followed by BKPyV-gt4 (19.26%), BKPyV-gt2 (8.11%), and BKPyV-gt3 (1.45%), but rates differed according to country and specimen type. Vp1-mutations matched a serotype different than the assigned one or were serotype-independent in 43%, 18% affected more than one amino acid. Notable Vp1-mutations altered antibody-binding domains, interactions with sialic acid receptors, or were predicted to change conformation. LTag-sequences were more conserved, with only 16 mutations detectable in more than one entry and without significant effects on LTag-structure or interaction domains. However, LTag changes were predicted to affect HLA-class I presentation of immunodominant 9mers to cytotoxic T-cells. These global data strengthen single center observations and specifically our earlier findings revealing mutant 9mer epitopes conferring immune escape from HLA-I cytotoxic T cells. We conclude that variability of BKPyV-Vp1 and LTag may have important implications for diagnostic assays assessing BKPyV-specific immune control and for vaccine design. IMPORTANCE Type and rate of amino acid variations in BKPyV may provide important insights into BKPyV diversity in human populations and an important step toward defining determinants of BKPyV-specific immunity needed to protect vulnerable patients from BKPyV diseases. Our analysis of BKPyV sequences obtained from human specimens reveals an unexpectedly high genetic variability for this double-stranded DNA virus that strongly relies on host cell DNA replication machinery with its proof reading and error correction mechanisms. BKPyV variability and immune escape should be taken into account when designing further approaches to antivirals, monoclonal antibodies, and vaccines for patients at risk of BKPyV diseases.",
+    "abstract_source": "https://doi.org/hcd7sf",
+    "metadata_provider": "Manubot",
+    "signature": [
+      "structuralimplicationsofbkpolyomavirussequencevariationsinthemajorviralcapsidproteinvp1andlargetantigenacomputationalstudy",
+      "https://journals.asm.org/doi/abs/10.1128/msphere.00799-23",
+      "",
+      ""
+    ],
+    "checked": "2026-09-08"
+  },
+  "scholar_4TOpqqG69KYC": {
+    "doi": "10.1093/bioinformatics/btad786",
+    "abstract": "Abstract Motivation Language models are routinely used for text classification and generative tasks. Recently, the same architectures were applied to protein sequences, unlocking powerful new approaches in the bioinformatics field. Protein language models (pLMs) generate high-dimensional embeddings on a per-residue level and encode a “semantic meaning” of each individual amino acid in the context of the full protein sequence. These representations have been used as a starting point for downstream learning tasks and, more recently, for identifying distant homologous relationships between proteins. Results In this work, we introduce a new method that generates embedding-based protein sequence alignments (EBA) and show how these capture structural similarities even in the twilight zone, outperforming both classical methods as well as other approaches based on pLMs. The method shows excellent accuracy despite the absence of training and parameter optimization. We demonstrate that the combination of pLMs with alignment methods is a valuable approach for the detection of relationships between proteins in the twilight-zone. Availability and implementation The code to run EBA and reproduce the analysis described in this article is available at: https://git.scicore.unibas.ch/schwede/EBA and https://git.scicore.unibas.ch/schwede/eba_benchmark.",
+    "abstract_source": "https://doi.org/gtdcxg",
+    "metadata_provider": "Manubot",
+    "signature": [
+      "embeddingbasedalignmentcombiningproteinlanguagemodelswithdynamicprogrammingalignmenttodetectstructuralsimilaritiesinthetwilightzone",
+      "https://academic.oup.com/bioinformatics/article-abstract/40/1/btad786/7510842",
+      "",
+      ""
+    ],
+    "checked": "2026-09-08"
+  },
+  "scholar_kNdYIx-mwKoC": {
+    "doi": "10.1002/prot.26545",
+    "abstract": "Abstract We present an in‐depth analysis of selected CASP15 targets, focusing on their biological and functional significance. The authors of the structures identify and discuss key protein features and evaluate how effectively these aspects were captured in the submitted predictions. While the overall ability to predict three‐dimensional protein structures continues to impress, reproducing uncommon features not previously observed in experimental structures is still a challenge. Furthermore, instances with conformational flexibility and large multimeric complexes highlight the need for novel scoring strategies to better emphasize biologically relevant structural regions. Looking ahead, closer integration of computational and experimental techniques will play a key role in determining the next challenges to be unraveled in the field of structural molecular biology.",
+    "abstract_source": "https://doi.org/hcd7sh",
+    "metadata_provider": "Manubot",
+    "signature": [
+      "proteintargethighlightsincasp15analysisofmodelsbystructureproviders",
+      "https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.26545",
+      "",
+      ""
+    ],
+    "checked": "2026-09-08"
+  },
+  "scholar_MXK_kJrjxJIC": {
+    "doi": "10.1002/prot.26515",
+    "abstract": "Abstract Prediction categories in the Critical Assessment of Structure Prediction (CASP) experiments change with the need to address specific problems in structure modeling. In CASP15, four new prediction categories were introduced: RNA structure, ligand‐protein complexes, accuracy of oligomeric structures and their interfaces, and ensembles of alternative conformations. This paper lists technical specifications for these categories and describes their integration in the CASP data management system.",
+    "abstract_source": "https://doi.org/hcd7sm",
+    "metadata_provider": "Manubot",
+    "signature": [
+      "newpredictioncategoriesincasp15",
+      "https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.26515",
+      "",
+      ""
+    ],
+    "checked": "2026-09-08"
+  },
+  "scholar_ULOm3_A8WrAC": {
+    "doi": "10.1002/prot.26601",
+    "abstract": "Abstract CASP15 introduced a new category, ligand prediction, where participants were provided with a protein or nucleic acid sequence, SMILES line notation, and stoichiometry for ligands and tasked with generating computational models for the three‐dimensional structure of the corresponding protein–ligand complex. These models were subsequently compared with experimental structures determined by x‐ray crystallography or cryoEM. To assess these predictions, two novel scores were developed. The Binding‐Site Superposed, Symmetry‐Corrected Pose Root Mean Square Deviation (BiSyRMSD) evaluated the absolute deviations of the models from the experimental structures. At the same time, the Local Distance Difference Test for Protein–Ligand Interactions (lDDT‐PLI) assessed the ability of models to reproduce the protein–ligand interactions in the experimental structures. The ligands evaluated in this challenge range from single‐atom ions to large flexible organic molecules. More than 1800 submissions were evaluated for their ability to predict 23 different protein–ligand complexes. Overall, the best models could faithfully reproduce the geometries of more than half of the prediction targets. The ligands' size and flexibility were the primary factors influencing the predictions' quality. Small ions and organic molecules with limited flexibility were predicted with high fidelity, while reproducing the binding poses of larger, flexible ligands proved more challenging.",
+    "abstract_source": "https://doi.org/hcd7sk",
+    "metadata_provider": "Manubot",
+    "signature": [
+      "assessmentofproteinligandcomplexesincasp15",
+      "https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.26601",
+      "",
+      ""
+    ],
+    "checked": "2026-09-08"
+  },
+  "scholar_KlAtU1dfN6UC": {
+    "doi": "10.1038/s41573-023-00774-7",
+    "abstract": "Developments in computational omics technologies have provided new means to access the hidden diversity of natural products, unearthing new potential for drug discovery. In parallel, artificial intelligence approaches such as machine learning have led to exciting developments in the computational drug design field, facilitating biological activity prediction and de novo drug design for molecular targets of interest. Here, we describe current and future synergies between these developments to effectively identify drug candidates from the plethora of molecules produced by nature. We also discuss how to address key challenges in realizing the potential of these synergies, such as the need for high-quality datasets to train deep learning algorithms and appropriate strategies for algorithm validation.",
+    "abstract_source": "https://europepmc.org/article/MED/37697042",
+    "metadata_provider": "Europe PMC",
+    "signature": [
+      "artificialintelligencefornaturalproductdrugdiscovery",
+      "https://www.nature.com/articles/s41573-023-00774-7",
+      "",
+      ""
+    ],
+    "checked": "2026-09-08"
+  },
+  "scholar_YOwf2qJgpHMC": {
+    "doi": "10.1002/prot.26605",
+    "abstract": "Abstract The prediction of protein‐ligand complexes (PLC), using both experimental and predicted structures, is an active and important area of research, underscored by the inclusion of the Protein‐Ligand Interaction category in the latest round of the Critical Assessment of Protein Structure Prediction experiment CASP15. The prediction task in CASP15 consisted of predicting both the three‐dimensional structure of the receptor protein as well as the position and conformation of the ligand. This paper addresses the challenges and proposed solutions for devising automated benchmarking techniques for PLC prediction. The reliability of experimentally solved PLC as ground truth reference structures is assessed using various validation criteria. Similarity of PLC to previously released complexes are employed to judge PLC diversity and the difficulty of a PLC as a prediction target. We show that the commonly used PDBBind time‐split test‐set is inappropriate for comprehensive PLC evaluation, with state‐of‐the‐art tools showing conflicting results on a more representative and high quality dataset constructed for benchmarking purposes. We also show that redocking on crystal structures is a much simpler task than docking into predicted protein models, demonstrated by the two PLC‐prediction‐specific scoring metrics created. Finally, we introduce a fully automated pipeline that predicts PLC and evaluates the accuracy of the protein structure, ligand pose, and protein–ligand interactions.",
+    "abstract_source": "https://doi.org/hcd7sj",
+    "metadata_provider": "Manubot",
+    "signature": [
+      "automatedbenchmarkingofcombinedproteinstructureandligandconformationprediction",
+      "https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.26605",
+      "",
+      ""
+    ],
+    "checked": "2026-09-08"
+  },
+  "scholar_5nxA0vEk-isC": {
+    "doi": "10.1145/3587135.3592172",
+    "abstract": "Today digital revolution is having a dramatic impact on the pharmaceutical industry and the entire healthcare system. The implementation of machine learning, extreme-scale computer simulations, and big data analytics in the drug design and development process offers an excellent opportunity to lower the risk of investment and reduce the time to the patient.\n  Within the LIGATE project, we aim to integrate, extend, and co-design best-in-class European components to design Computer-Aided Drug Design (CADD) solutions exploiting today's high-end supercomputers and tomorrow's Exascale resources, fostering European competitiveness in the field.\n  The proposed LIGATE solution is a fully integrated workflow that enables to deliver the result of a virtual screening campaign for drug discovery with the highest speed along with the highest accuracy. The full automation of the solution and the possibility to run it on multiple supercomputing centers at once permit to run an extreme scale in silico drug discovery campaign in few days to respond promptly for example to a worldwide pandemic crisis.",
+    "abstract_source": "https://arxiv.org/abs/2304.09953",
+    "metadata_provider": "Manubot",
+    "signature": [
+      "tunableandportableextremescaledrugdiscoveryplatformatexascaletheligateapproach",
+      "https://dl.acm.org/doi/abs/10.1145/3587135.3592172",
+      "",
+      "arxiv:2304.09953"
+    ],
+    "checked": "2026-09-08"
+  },
+  "scholar_8k81kl-MbHgC": {
+    "doi": "10.1007/978-3-031-30691-4_6",
+    "abstract": "The large amount of genetic, phenotypic, and structural data from diverse conditions and environments offers opportunities for new groundbreaking research. Today, the major scientific task is to interpret the vast number of genetic variants within these data. As described in this chapter, identifying relevant variants and connecting them with the associated protein structural and environmental information is a powerful approach to biological discoveries. The unified view of the data brings us a step closer to understanding genetic variation, which is also fundamental for achieving the goals of personalized medicine and the planet’s environment.",
+    "abstract_source": "https://doi.org/10.1007/978-3-031-30691-4_6",
+    "metadata_provider": "Manubot",
+    "signature": [
+      "fromgenomestovariantinterpretationsthroughproteinstructures",
+      "https://link.springer.com/chapter/10.1007/978-3-031-30691-4_6",
+      "",
+      "https://link.springer.com/chapter/10.1007/978-3-031-30691-4_6"
+    ],
+    "checked": "2026-09-08"
+  },
+  "scholar_UebtZRa9Y70C": {
+    "doi": "10.1126/science.abq4775",
+    "abstract": "Maize ( Zea mays ) is a major staple crop in Africa, where its yield and the livelihood of millions are compromised by the parasitic witchweed Striga . Germination of Striga is induced by strigolactones exuded from maize roots into the rhizosphere. In a maize germplasm collection, we identified two strigolactones, zealactol and zealactonoic acid, which stimulate less Striga germination than the major maize strigolactone, zealactone. We then showed that a single cytochrome P450, ZmCYP706C37, catalyzes a series of oxidative steps in the maize-strigolactone biosynthetic pathway. Reduction in activity of this enzyme and two others involved in the pathway, ZmMAX1b and ZmCLAMT1, can change strigolactone composition and reduce Striga germination and infection. These results offer prospects for breeding Striga -resistant maize.",
+    "abstract_source": "https://doi.org/hcd7sn",
+    "metadata_provider": "Manubot",
+    "signature": [
+      "maizeresistancetowitchweedthroughchangesinstrigolactonebiosynthesis",
+      "https://www.science.org/doi/abs/10.1126/science.abq4775",
+      "",
+      ""
+    ],
+    "checked": "2026-09-08"
+  },
+  "scholar_Se3iqnhoufwC": {
+    "doi": "10.1016/j.csbj.2022.12.039",
+    "abstract": "Recent breakthroughs in protein structure prediction demarcate the start of a new era in structural bioinformatics. Combined with various advances in experimental structure determination and the uninterrupted pace at which new structures are published, this promises an age in which protein structure information is as prevalent and ubiquitous as sequence. Machine learning in protein bioinformatics has been dominated by sequence-based methods, but this is now changing to make use of the deluge of rich structural information as input. Machine learning methods making use of structures are scattered across literature and cover a number of different applications and scopes; while some try to address questions and tasks within a single protein family, others aim to capture characteristics across all available proteins. In this review, we look at the variety of structure-based machine learning approaches, how structures can be used as input, and typical applications of these approaches in protein biology. We also discuss current challenges and opportunities in this all-important and increasingly popular field.",
+    "abstract_source": "https://europepmc.org/article/MED/36659927",
+    "metadata_provider": "Europe PMC",
+    "signature": [
+      "beyondsequencestructurebasedmachinelearning",
+      "https://spj.science.org/doi/abs/10.1016/j.csbj.2022.12.039",
+      "",
+      ""
+    ],
+    "checked": "2026-09-08"
+  },
+  "litvinov2026stoic": {
+    "doi": "10.1093/bioinformatics/btag448",
+    "abstract": "Abstract Motivation Protein complexes are central to cellular function, but experimental determination of their structures remains challenging. Structure prediction methods require prior knowledge of stoichiometry—the number of copies of each protein entity within a complex. Current approaches rely on computationally expensive brute-force methods that run structure prediction on multiple stoichiometry combinations, often with limited accuracy. Results We introduce Stoic, a method that uses protein language model embeddings to predict protein complex stoichiometry. Our approach learns to identify interface residues that participate in protein-protein interactions, rather than relying on global sequence features. By integrating these interface-aware embeddings into a graph neural network, Stoic achieves fast and accurate stoichiometry prediction for both homomeric and heteromeric targets. Availability Source code for inference and training along with web versions are available in the repository at https://github.com/PickyBinders/stoic.",
+    "abstract_source": "https://doi.org/hch2nx",
+    "metadata_provider": "Manubot",
+    "signature": [
+      "stoicfastandaccurateproteinstoichiometryprediction",
+      "https://doi.org/10.1093/bioinformatics/btag448",
+      "10.1093/bioinformatics/btag448",
+      ""
+    ],
+    "checked": "2026-09-08"
+  }
+}

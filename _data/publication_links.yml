@@ -1,0 +1,47 @@
+durairaj2023uncovering:
+  code: https://github.com/ProteinUniverseAtlas/AFDB90v4
+  website: https://uniprot3d.org/atlas/AFDB90v4
+
+scholar_RHpTSmoSYBkC:
+  project: /projects/motifcraft/
+  code: https://github.com/oceanefollonier/MotifCraft
+
+durairaj2024plinder:
+  project: /projects/plinder/
+  code: https://github.com/plinder-org/plinder
+  website: https://www.plinder.sh/
+
+skrinjar2026runs:
+  featured: 1
+  label: "Runs N’ Poses"
+  concepts: "Cofolding · Generalization"
+  project: /projects/runs-n-poses/
+  code: https://github.com/plinder-org/runs-n-poses
+  preprint: https://doi.org/10.1101/2025.02.03.636309
+  website: https://polarishub.io/benchmarks/plinder-org/runs-n-poses
+
+litvinov2026stoic:
+  featured: 2
+  label: "Stoic"
+  concepts: "Complexes · Stoichiometry"
+  project: /projects/stoic/
+  code: https://github.com/PickyBinders/stoic
+  website: https://huggingface.co/spaces/PickyBinders/stoic-space
+
+pantolini2025tea:
+  featured: 3
+  label: "TEA"
+  concepts: "Language models · Homology"
+  project: /projects/tea/
+  code: https://github.com/PickyBinders/tea
+  website: https://pickybinders.org/tea
+
+pantolini2026tealeaves:
+  project: /projects/tea-leaves/
+
+follonier2026af3:
+  featured: 4
+  label: "AlphaFold3 assessment"
+  concepts: "Interactions · Specificity"
+  project: /projects/alphafold3/
+  preprint: https://doi.org/10.64898/2026.07.13.738147

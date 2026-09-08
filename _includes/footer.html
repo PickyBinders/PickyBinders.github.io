@@ -1,5 +1,9 @@
-<footer class="page-footer mt-5">
-  <div class="container">
-    {{ site.footer_text }}
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div><a href="{{ site.links.department }}">Department of Computational Biology</a><p><a href="https://www.unil.ch/">University of Lausanne</a></p></div>
+    <div class="footer-links"><a href="mailto:{{ site.email }}">Contact ↗</a><a href="{{ site.links.github }}">GitHub ↗</a><a href="{{ site.links.google_scholar }}">Scholar ↗</a></div>
   </div>
+  <div class="footer-bottom"><span>© {{ 'now' | date: '%Y' }} Janani Durairaj</span></div>
 </footer>
+<script src="{{ '/assets/javascript/bootstrap/bootstrap.bundle.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/site.js' | relative_url }}"></script>

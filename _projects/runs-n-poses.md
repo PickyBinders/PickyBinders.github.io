@@ -1,8 +1,12 @@
 ---
-layout: page
+layout: project
 title: Runs N' Poses
-tagline: A benchmark for protein-ligand co-folding prediction
+tagline: Protein–ligand cofolding · Generalization · Training similarity
 importance: 3
+featured: true
+research_area: interactions
+publication_key: skrinjar2026runs
+logo: /assets/img/runs-n-poses-logo.png
 github: https://github.com/plinder-org/runs-n-poses
 paper: https://www.nature.com/articles/s41594-026-01797-5
 pdf: https://rdcu.be/fhBtI

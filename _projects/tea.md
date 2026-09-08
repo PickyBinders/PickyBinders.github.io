@@ -1,8 +1,12 @@
 ---
-layout: page
+layout: project
 title: TEA (The Embedded Alphabet)
-tagline: Rewriting protein sequences using language models
+tagline: Learned alphabets · Remote homology · Sequence search
 importance: 4
+featured: true
+research_area: representations
+publication_key: pantolini2025tea
+logo: /assets/img/tea-logo.png
 github: https://github.com/PickyBinders/tea
 huggingface: https://huggingface.co/PickyBinders/tea
 biorxiv: https://doi.org/10.1101/2025.11.27.690975
