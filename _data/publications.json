@@ -538,50 +538,5 @@
     "doi": "10.1007/978-3-031-30691-4_6",
     "abstract": "The large amount of genetic, phenotypic, and structural data from diverse conditions and environments offers opportunities for new groundbreaking research. Today, the major scientific task is to interpret the vast number of genetic variants within these data. As described in this chapter, identifying relevant variants and connecting them with the associated protein structural and environmental information is a powerful approach to biological discoveries. The unified view of the data brings us a step closer to understanding genetic variation, which is also fundamental for achieving the goals of personalized medicine and the planet’s environment.",
     "abstract_source": "https://doi.org/10.1007/978-3-031-30691-4_6"
-  },
-  {
-    "id": "scholar_UebtZRa9Y70C",
-    "scholar_id": "UebtZRa9Y70C",
-    "title": "Maize resistance to witchweed through changes in strigolactone biosynthesis",
-    "authors": "C Li, L Dong, J Durairaj, J-C Guan, M Yoshimura, P Quinodoz, R Horber, K Gaus, J Li, YB Setotaw, J Qi, H De Groote, Y Wang, B Thiombiano, K Floková, A Walmsley, TV Charnikhova, A Chojnacka, S Correia de Lemos, Y Ding, D Skibbe, K Hermann, C Screpanti, A De Mesmaeker, EA Schmelz, A Menkir, M Medema, ADJ Van Dijk, J Wu, KE Koch, HJ Bouwmeester",
-    "venue": "Science",
-    "year": 2023,
-    "url": "https://www.science.org/doi/abs/10.1126/science.abq4775",
-    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:UebtZRa9Y70C",
-    "date": "2023-01-06",
-    "volume": "379",
-    "issue": "6627",
-    "pages": "94-99",
-    "detail_fetched": true,
-    "profile_signature": [
-      "Maize resistance to witchweed through changes in strigolactone biosynthesis",
-      "Science 379 (6627), 94-99 , 2023",
-      2023
-    ],
-    "doi": "10.1126/science.abq4775",
-    "abstract": "Maize ( Zea mays ) is a major staple crop in Africa, where its yield and the livelihood of millions are compromised by the parasitic witchweed Striga . Germination of Striga is induced by strigolactones exuded from maize roots into the rhizosphere. In a maize germplasm collection, we identified two strigolactones, zealactol and zealactonoic acid, which stimulate less Striga germination than the major maize strigolactone, zealactone. We then showed that a single cytochrome P450, ZmCYP706C37, catalyzes a series of oxidative steps in the maize-strigolactone biosynthetic pathway. Reduction in activity of this enzyme and two others involved in the pathway, ZmMAX1b and ZmCLAMT1, can change strigolactone composition and reduce Striga germination and infection. These results offer prospects for breeding Striga -resistant maize.",
-    "abstract_source": "https://doi.org/hcd7sn"
-  },
-  {
-    "id": "scholar_Se3iqnhoufwC",
-    "scholar_id": "Se3iqnhoufwC",
-    "title": "Beyond sequence: Structure-based machine learning",
-    "authors": "Janani Durairaj, Dick de Ridder, Aalt DJ van Dijk",
-    "venue": "Computational and Structural Biotechnology Journal",
-    "year": 2023,
-    "url": "https://spj.science.org/doi/abs/10.1016/j.csbj.2022.12.039",
-    "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=PQ-my-kAAAAJ&pagesize=100&citation_for_view=PQ-my-kAAAAJ:Se3iqnhoufwC",
-    "date": "2023-01-01",
-    "volume": "21",
-    "pages": "630-643",
-    "detail_fetched": true,
-    "profile_signature": [
-      "Beyond sequence: Structure-based machine learning",
-      "Computational and Structural Biotechnology Journal 21, 630-643 , 2023",
-      2023
-    ],
-    "doi": "10.1016/j.csbj.2022.12.039",
-    "abstract": "Recent breakthroughs in protein structure prediction demarcate the start of a new era in structural bioinformatics. Combined with various advances in experimental structure determination and the uninterrupted pace at which new structures are published, this promises an age in which protein structure information is as prevalent and ubiquitous as sequence. Machine learning in protein bioinformatics has been dominated by sequence-based methods, but this is now changing to make use of the deluge of rich structural information as input. Machine learning methods making use of structures are scattered across literature and cover a number of different applications and scopes; while some try to address questions and tasks within a single protein family, others aim to capture characteristics across all available proteins. In this review, we look at the variety of structure-based machine learning approaches, how structures can be used as input, and typical applications of these approaches in protein biology. We also discuss current challenges and opportunities in this all-important and increasingly popular field.",
-    "abstract_source": "https://europepmc.org/article/MED/36659927"
   }
 ]

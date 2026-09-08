@@ -48,6 +48,6 @@
     "pantolini2026tealeaves": {"when_venue_contains": ["bioRxiv", "Preprint"], "venue": "bioRxiv · Preprint"},
     "durairaj2024plinder": {"when_venue_contains": ["bioRxiv", "Preprint"], "venue": "bioRxiv · Preprint"}
   },
-  "exclude_scholar_ids": ["r0BpntZqJG4C", "_FxGoFyzp5QC", "L8Ckcad2t8MC"],
+  "exclude_scholar_ids": ["r0BpntZqJG4C", "_FxGoFyzp5QC", "L8Ckcad2t8MC", "UebtZRa9Y70C", "Se3iqnhoufwC"],
   "required_ids": ["skrinjar2026runs", "litvinov2026stoic", "pantolini2025tea", "follonier2026af3"]
 }
