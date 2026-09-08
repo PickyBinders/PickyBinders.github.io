@@ -18,7 +18,7 @@ description: "Selected papers and publications from Google Scholar, from 2023 on
 </section>
 
 <section class="all-publications" aria-labelledby="all-heading">
-  <div class="section-heading"><h2 id="all-heading">Publications from 2023</h2><span class="section-note">{{ site.data.publications.size }} entries</span></div>
+  <div class="section-heading"><h2 id="all-heading">Publications</h2><span class="section-note">{{ site.data.publications.size }} entries</span></div>
   <label class="visually-hidden" for="pubSearch">Filter publications</label>
   <input type="search" class="pub-search" id="pubSearch" placeholder="Title, author, year or topic…" aria-controls="pubList">
   <div id="pubList">
