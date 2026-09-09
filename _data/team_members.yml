@@ -17,7 +17,7 @@
   group: unil
   status: upcoming
   role: "Upcoming"
-  glyph: "🐢"
+  glyph: "🐈"
   tags: ["?", "?", "?"]
   order: 1
 
@@ -26,7 +26,7 @@
   group: unil
   status: upcoming
   role: "Upcoming"
-  glyph: "🐈"
+  glyph: "🐢"
   tags: ["?", "?", "?"]
   order: 2
 

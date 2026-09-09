@@ -1,0 +1,4 @@
+<svg id="motifcraft-mark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 208 208" fill="none" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="var(--motifcraft-scaffold, #3e3e3e)" d="M151 58C137 34 115 25 94 35C74 44 59 41 41 49C15 59 18 88 23 104C30 124 24 164 58 174C83 184 106 168 120 151C136 132 167 140 178 117"/>
+  <path stroke="var(--motifcraft-motif, #aa79ca)" d="M177 110C181 100 168 96 161 88C153 79 157 72 154 65"/>
+</svg>

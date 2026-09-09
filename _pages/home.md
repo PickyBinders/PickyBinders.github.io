@@ -30,7 +30,7 @@ description: "Context-aware deep learning for protein structure, interaction and
 <div class="home-updates home-section">
 <section class="news-section">
   <div class="section-heading"><h2>News</h2><span class="section-note">From the group</span></div>
-  {% include news.html limit=4 %}
+  {% include news.html limit=5 %}
 </section>
 
 <aside class="contact-panel" id="contact" aria-labelledby="contact-heading">

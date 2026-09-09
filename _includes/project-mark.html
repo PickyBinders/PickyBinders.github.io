@@ -1,5 +1,7 @@
 {% if include.project.logo %}
-{% if include.project.logo_tone %}
+{% if include.project.logo_symbol %}
+<svg class="project-logo project-logo-{{ include.project.logo_symbol }}" viewBox="{{ include.project.logo_viewbox }}" role="img" aria-label="{{ include.project.title | escape }} logo"><use href="{{ include.project.logo | relative_url }}#{{ include.project.logo_symbol }}"></use></svg>
+{% elsif include.project.logo_tone %}
 <span class="project-logo project-logo-tinted project-logo-{{ include.project.logo_tone }}" role="img" aria-label="{{ include.project.title | escape }} logo" style="--logo-url: url('{{ include.project.logo | relative_url }}')"></span>
 {% else %}
 <img class="project-logo" src="{{ include.project.logo | relative_url }}" alt="{{ include.project.title | escape }} logo" loading="lazy">

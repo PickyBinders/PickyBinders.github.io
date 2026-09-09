@@ -172,8 +172,10 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px soli
 .project-logo-tinted { width: 112px; background-color: var(--accent); -webkit-mask: var(--logo-url) center / contain no-repeat; mask: var(--logo-url) center / contain no-repeat; }
 .project-logo-tea { width: 104px; height: 88px; }
 .project-logo-tea-leaves { background-color: #68795b; }
-.project-logo[src$="/protein-universe-atlas-logo.svg"] { width: 108px; height: 88px; }
-[data-bs-theme="dark"] .project-logo[src$="/protein-universe-atlas-logo.svg"] { filter: brightness(1.8); }
+.project-logo-atlas-mark { width: 108px; height: 88px; fill: #000; --atlas-node: #664273; }
+[data-bs-theme="dark"] .project-logo-atlas-mark { fill: #d6d6d6; --atlas-node: #b777cf; }
+.project-logo-motifcraft-mark { width: 108px; height: 88px; --motifcraft-scaffold: #3e3e3e; --motifcraft-motif: #aa79ca; }
+[data-bs-theme="dark"] .project-logo-motifcraft-mark { --motifcraft-scaffold: #7f7f7f; --motifcraft-motif: #efd4ff; }
 [data-bs-theme="dark"] .project-logo-tea-leaves { background-color: #b0bd9e; }
 .project-card-top .project-logo-tinted { width: 108px; height: 88px; }
 .project-card-top .project-logo-tea { width: 96px; height: 80px; }
@@ -211,6 +213,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px soli
 .resource-row h2 { font-family: "DM Sans", sans-serif; font-weight: 500; font-size: 1.05rem; letter-spacing: -0.015em; margin: 0; }
 .resource-row p { font-size: 0.8rem; margin: 0.5rem 0 0; }
 .resource-row time { color: var(--accent); font-size: 1rem; }
+.resource-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
 .resource-kind { display: block; color: var(--text-muted); font-size: 0.7rem; }
 .button { border: 1px solid var(--border-color); border-radius: 3px; color: var(--accent); background: transparent; display: inline-flex; padding: 0.5rem 0.85rem; text-decoration: none; font-size: 0.75rem; }
 .button:hover { background: var(--accent-light); color: var(--accent-hover); }

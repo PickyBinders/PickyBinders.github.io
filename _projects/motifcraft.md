@@ -5,6 +5,9 @@ tagline: Motif scaffolding · Functional binders · Target-aware design
 importance: 1
 research_area: design
 publication_key: scholar_RHpTSmoSYBkC
+logo: /assets/img/motifcraft-logo.svg
+logo_symbol: motifcraft-mark
+logo_viewbox: 0 0 208 208
 preprint: https://openreview.net/forum?id=VkTvNInkUi
 github: https://github.com/oceanefollonier/MotifCraft
 authors: "Océane Follonier, Torsten Schwede, Janani Durairaj"
