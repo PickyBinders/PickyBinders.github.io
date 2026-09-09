@@ -6,5 +6,6 @@ title: Hackathon - Geometric Deep Learning for Protein Structure Data with PyTor
 html: https://github.com/PickyBinders/geometric-learning-protein-structures-course
 authors:
     - name: Jay
+    - name: Peter Škrinjar
+    - name: Daniil Litvinov
 ---
-
