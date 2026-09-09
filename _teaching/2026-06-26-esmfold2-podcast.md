@@ -1,12 +1,13 @@
 ---
 layout: page
-title: "Journal Club podcast: ESMFold2"
+title: "Journal Club podcast"
 description: "Our first recorded Journal Club podcast, hosted by Lorenzo, covers the ESMFold2 preprint."
 date: 2026-06-26
 kind: Podcast
 html: https://youtu.be/cOOe_pKK2JQ
 link_label: Listen
 preprint: https://www.biorxiv.org/content/10.64898/2026.06.03.729735v1
+preprint_title: Language Modeling Materializes a World Model of Protein Biology
 authors:
   - name: Lorenzo Pantolini (host)
   - name: Ieva Pudžiuvelytė
@@ -25,4 +26,4 @@ technical_support: Rok Breznikar
 
 Technical support: {{ page.technical_support }}.
 
-[Listen to the episode]({{ page.html }}) · [ESMFold2 preprint]({{ page.preprint }})
+[Listen to the episode]({{ page.html }}) · [{{ page.preprint_title }}]({{ page.preprint }})
