@@ -1,5 +1,9 @@
 {% if include.project.logo %}
+{% if include.project.logo_tone %}
+<span class="project-logo project-logo-tinted project-logo-{{ include.project.logo_tone }}" role="img" aria-label="{{ include.project.title | escape }} logo" style="--logo-url: url('{{ include.project.logo | relative_url }}')"></span>
+{% else %}
 <img class="project-logo" src="{{ include.project.logo | relative_url }}" alt="{{ include.project.title | escape }} logo" loading="lazy">
+{% endif %}
 {% elsif include.project.emoji %}
 <span class="project-emoji" aria-hidden="true">{{ include.project.emoji }}</span>
 {% endif %}

@@ -168,13 +168,22 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px soli
 .project-card-content .project-links { margin-top: 0.5rem; gap: 0.3rem 0.9rem; }
 .project-card-content .disclosure-button { margin-top: 0.5rem; }
 .project-logo { display: block; width: 160px; max-width: 100%; height: 96px; object-fit: contain; object-position: left center; filter: none; }
+.project-logo-tinted { width: 112px; background-color: var(--accent); -webkit-mask: var(--logo-url) center / contain no-repeat; mask: var(--logo-url) center / contain no-repeat; }
+.project-logo-tea { width: 104px; height: 88px; }
+.project-logo-tea-leaves { background-color: #68795b; }
+.project-logo[src$="/protein-universe-atlas-logo.svg"] { width: 108px; height: 88px; }
+[data-bs-theme="dark"] .project-logo[src$="/protein-universe-atlas-logo.svg"] { filter: brightness(1.8); }
+[data-bs-theme="dark"] .project-logo-tea-leaves { background-color: #b0bd9e; }
+.project-card-top .project-logo-tinted { width: 108px; height: 88px; }
+.project-card-top .project-logo-tea { width: 96px; height: 80px; }
 .project-emoji { display: block; font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif; font-size: 3.5rem; line-height: 96px; }
 .project-area { display: none; }
 .project-card h3 { font-size: 1.2rem; margin: 0 0 0.3rem; }
 .project-card h3 a { color: var(--text-primary); text-decoration: none; }
 .project-tagline { font-size: 0.8rem; margin: 0; }
 .project-links { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; margin-top: 1rem; }
-.project-links a { border: 0; border-bottom: 1px solid var(--border-color); border-radius: 0; color: var(--accent); font-size: 0.75rem; font-weight: 500; padding: 0.15rem 0; text-decoration: none; background: transparent; }
+.project-links a { display: inline-flex; align-items: center; gap: 0.3em; border: 0; border-bottom: 1px solid var(--border-color); border-radius: 0; color: var(--accent); font-size: 0.75rem; font-weight: 500; padding: 0.15rem 0; text-decoration: none; background: transparent; }
+.project-links .ui-icon { flex: none; width: 1.1em; height: 1.1em; }
 .project-links a:hover { color: var(--accent-hover); border-color: var(--accent); }
 .disclosure-button { background: transparent; border: 0; color: var(--text-muted); display: flex; gap: 1rem; font-size: 0.75rem; margin-top: 1rem; padding: 0; text-align: left; }
 .project-details, .pub-collapse { display: none; padding-top: 1rem; }
@@ -265,6 +274,8 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px soli
   .project-card { grid-template-columns: 88px minmax(0, 1fr); gap: 0.85rem; align-items: start; }
   .project-card-top { width: 88px; height: 80px; padding: 7px; }
   .project-card-top .project-logo { width: 72px; height: 64px; }
+  .project-card-top .project-logo-tea { width: 60px; height: 52px; }
+  .project-card-top .project-logo-tea-leaves { width: 68px; height: 60px; }
   .project-card-top .project-emoji { font-size: 3rem; line-height: 64px; }
   .project-card h3 { font-size: 1.08rem; }
   .project-tagline { font-size: 0.75rem; }

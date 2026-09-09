@@ -4,7 +4,7 @@
 <article class="project-card">
   {% if project.logo or project.emoji %}<div class="project-card-top">{% include project-mark.html project=project %}</div>{% endif %}
   <div class="project-card-content">
-  <h3><a href="{{ project.url | relative_url }}">{{ project.title }}{% if project.full_name %} ({{ project.full_name }}){% endif %}</a></h3>
+  <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
   <p class="project-tagline">{{ project.tagline }}</p>
   {% include project-links.html project=project %}
   {% if project_abstract %}

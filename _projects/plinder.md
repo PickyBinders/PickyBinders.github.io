@@ -1,8 +1,7 @@
 ---
 layout: project
 title: PLINDER
-full_name: Protein-Ligand INteraction Dataset and Evaluation Resource
-tagline: Protein–ligand data · Task-specific splits · Evaluation
+tagline: Protein-Ligand INteraction Dataset and Evaluation Resource
 importance: 5
 featured: true
 research_area: interactions
