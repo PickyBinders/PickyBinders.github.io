@@ -18,6 +18,18 @@ description: "Context-aware deep learning for protein structure, interaction and
   </div>
 </section>
 
+<section class="home-join home-join-top" id="open-positions" aria-labelledby="open-positions-heading">
+  <div class="home-join-copy">
+    <span class="section-note">Join us</span>
+    <h2 id="open-positions-heading">Open positions</h2>
+    <p>We’re recruiting a PhD student and a postdoctoral researcher to join us at UNIL.</p>
+  </div>
+  <div class="project-links home-join-links" aria-label="Open position advertisements">
+    <a href="{{ '/phd/' | relative_url }}">PhD position ↗</a>
+    <a href="{{ '/postdoc/' | relative_url }}">Postdoc position ↗</a>
+  </div>
+</section>
+
 <section class="theme-grid" aria-label="Research themes">
   {% for theme in site.data.research_themes %}
   <a class="theme-item" href="{{ '/research/' | relative_url }}#{{ theme.id }}">
@@ -41,7 +53,3 @@ description: "Context-aware deep learning for protein structure, interaction and
   <div class="project-links"><a href="mailto:{{ site.email }}">Email ↗</a><a href="{{ site.links.personal }}">Personal website ↗</a><a href="{{ site.links.google_scholar }}">Scholar ↗</a><a href="{{ site.links.github }}">GitHub ↗</a></div>
 </aside>
 </div>
-
-<section class="home-section home-join">
-  <div><h2>Upcoming positions</h2><p>PhD · Postdoc</p></div>
-</section>

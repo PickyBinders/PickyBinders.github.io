@@ -10,6 +10,6 @@
     <p class="team-role">{{ member.role }}</p>
     {% if member.tags.size > 0 %}<ul class="research-tags" aria-label="{% if member.status == 'upcoming' %}Research topics to be announced{% else %}Research interests{% endif %}">{% for tag in member.tags %}<li>{{ tag }}</li>{% endfor %}</ul>{% endif %}
     {% if member.placement %}<p class="member-placement">{{ member.placement.label }} {% if member.placement.url %}<a href="{{ member.placement.url }}">{{ member.placement.organization }}</a>{% else %}{{ member.placement.organization }}{% endif %}</p>{% endif %}
-    {% if member.contact or member.website %}<div class="team-links">{% if member.contact %}<a href="mailto:{{ site.email }}" aria-label="Email {{ member.name | escape }}">Email ↗</a>{% endif %}{% if member.website %}<a href="{{ member.website }}">Website ↗</a>{% endif %}</div>{% endif %}
+    {% if member.contact or member.website or member.application %}<div class="team-links">{% if member.contact %}<a href="mailto:{{ site.email }}" aria-label="Email {{ member.name | escape }}">Email ↗</a>{% endif %}{% if member.website %}<a href="{{ member.website }}">Website ↗</a>{% endif %}{% if member.application %}<a href="{{ member.application | relative_url }}">Apply ↗</a>{% endif %}</div>{% endif %}
   </div>
 </article>

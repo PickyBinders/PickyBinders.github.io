@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | escape }} · {{ site.name | escape }}</title>
+    <meta name="description" content="{{ page.description | default: site.description | strip_html | escape }}">
+    <meta name="robots" content="noindex">
+    <meta http-equiv="refresh" content="0; url={{ page.redirect_to | escape }}">
+
+    <meta property="og:title" content="{{ page.title | escape }} · {{ site.name | escape }}">
+    <meta property="og:description" content="{{ page.description | default: site.description | strip_html | escape }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:image" content="{{ '/assets/img/team/group-1280.jpg' | absolute_url }}">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="canonical" href="{{ page.redirect_to | escape }}">
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+    <link rel="icon" type="image/png" href="{{ '/assets/img/pb_favicon.png' | relative_url }}">
+
+    <script>
+      window.location.replace({{ page.redirect_to | jsonify }});
+    </script>
+  </head>
+  <body>
+    <main class="site-container" id="main-content">
+      <h1>{{ page.title }}</h1>
+      <p>Redirecting to the University of Lausanne job posting…</p>
+      <p><a href="{{ page.redirect_to | escape }}">Continue to the job posting →</a></p>
+    </main>
+  </body>
+</html>

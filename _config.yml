@@ -3,7 +3,7 @@
 name: "Protein structure, interaction & design · UNIL"
 title: "Context-aware deep learning for protein structure, interaction & design"
 description: "Context-aware deep learning for protein structure, interaction & design."
-url: "https://pickybinders.github.io"
+url: "https://pickybinders.org"
 baseurl: ""
 repository: "PickyBinders/PickyBinders.github.io"
 lang: "en"

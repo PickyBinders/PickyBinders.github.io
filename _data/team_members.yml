@@ -19,6 +19,7 @@
   role: "Upcoming"
   glyph: "🐈"
   tags: ["?", "?", "?"]
+  application: /phd/
   order: 1
 
 - id: upcoming-postdoc
@@ -28,6 +29,7 @@
   role: "Upcoming"
   glyph: "🐢"
   tags: ["?", "?", "?"]
+  application: /postdoc/
   order: 2
 
 - id: peter-skrinjar

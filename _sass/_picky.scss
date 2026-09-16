@@ -115,10 +115,14 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px soli
 .featured-publication-full h3 { font-size: 1.15rem; line-height: 1.4; }
 .work-concepts { color: var(--accent); font-size: 0.85rem; margin: 0 0 0.75rem; }
 .work-title { font-size: 0.8rem; margin: 0; max-width: 48ch; }
-.home-join { display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--border-color); padding-top: 2rem; }
+.home-join { display: flex; align-items: center; justify-content: space-between; gap: 2rem; border-top: 1px solid var(--border-color); padding-top: 2rem; scroll-margin-top: 7rem; }
+.home-join-top { margin-bottom: 2.5rem; }
+.home-join-copy { max-width: 62ch; }
+.home-join .section-note { display: block; margin-bottom: 0.35rem; }
 .home-join h2 { margin: 0; }
-.home-join p { margin: 0.4rem 0 0; }
-.home-join > a { font-size: 0.9rem; }
+.home-join p { color: var(--text-secondary); font-size: 0.85rem; margin: 0.5rem 0 0; }
+.home-join-links { align-items: flex-start; flex: 0 0 auto; flex-direction: column; justify-content: flex-end; margin: 0 3rem 0 0; }
+.home-join .home-join-links a { font-size: 0.9rem; }
 
 .page-heading { border-bottom: 1px solid var(--border-color); margin-bottom: 2.5rem; padding-bottom: 1.75rem; }
 .page-heading h1 { margin: 0 0 0.75rem; }
@@ -291,9 +295,9 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px soli
   .team-links a { font-size: 0.68rem; }
   .member-placement { font-size: 0.72rem; }
   .team-role { font-size: 0.75rem; }
-  .home-join { gap: 1rem; }
+  .home-join { align-items: flex-start; flex-direction: column; gap: 1.25rem; }
   .home-join h2 { font-size: 1.3rem; }
-  .home-join > a { font-size: 0.75rem; white-space: nowrap; }
+  .home-join-links { justify-content: flex-start; margin-right: 0; }
   .publication-year { grid-template-columns: 1fr; gap: 0.5rem; }
   .year-label { margin-top: 0; }
   .publication-row h3 { font-size: 0.95rem; }
